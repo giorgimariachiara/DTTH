@@ -1227,8 +1227,8 @@ h6 {
 }
 
 .hero h2 {
-  margin: 0 0 10px 0;
-  font-size: 38px;
+  margin: 0 0 50px 0;
+  font-size: 20px;
   font-weight: 700;
   color: #fff;
   font-family: var(--font-secondary);
@@ -1255,7 +1255,7 @@ h6 {
 .hero p {
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 30px;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .hero .btn-get-started {
@@ -1418,4 +1418,15 @@ color:yellow;
   text-align: center;
   padding-top: 20px;
   font-size: 20px;
+  }
+
+
+  .highlight[property~="people"]{
+    background-color: rgba(104, 254, 124, 0.5);
+    border-radius: 6px;
+  }
+  
+  .highlight[property~="places"]{
+    background-color: rgba(250, 0, 0, 0.5);
+    border-radius: 6px;
   }
