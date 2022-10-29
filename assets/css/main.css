@@ -215,7 +215,7 @@ h6 {
   background-color: #fff;
   left: 0;
   top: 50%;
-  width: 1px;
+  width: 3px;
   height: 0%;
   transform: translateY(-50%);
   -webkit-animation: lineincrease 1000ms ease-in-out 0s forwards;
@@ -228,7 +228,7 @@ h6 {
   background-color: #999;
   left: 0;
   top: 0;
-  width: 1px;
+  width: 3px;
   height: 100%;
   transform: translateY(-100%);
   -webkit-animation: linemove 1200ms linear 0s infinite;
@@ -1227,8 +1227,8 @@ h6 {
 }
 
 .hero h2 {
-  margin: 0 0 10px 0;
-  font-size: 38px;
+  margin: 0 0 50px 0;
+  font-size: 20px;
   font-weight: 700;
   color: #fff;
   font-family: var(--font-secondary);
@@ -1255,7 +1255,7 @@ h6 {
 .hero p {
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 30px;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .hero .btn-get-started {
@@ -1317,6 +1317,26 @@ h6 {
 /*--------------------------------------------------------------
 # text
 --------------------------------------------------------------*/
+.titlecontent {
+  color:#954e13;
+  font-weight: bold;
+  font-size: 25px;
+  text-transform:uppercase;
+  padding-bottom: 45px;
+  padding-top:35px;
+  text-align: center;
+  margin-left: 30px;
+  }
+
+  #content1 p{
+  margin-left: 80px;
+  }
+  #content2 p{
+    margin-left: 80px;
+    }
+    #content3 p{
+      margin-left: 80px;
+      }
 
 .butn1 {
   font-size: 25px;
@@ -1389,3 +1409,24 @@ color: white;
 .butn:hover{
 color: white;
 }
+.butn{
+color:yellow;
+}
+
+
+ .item1{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+  }
+
+
+  .highlight[property~="people"]{
+    background-color: rgba(104, 254, 124, 0.5);
+    border-radius: 6px;
+  }
+  
+  .highlight[property~="places"]{
+    background-color: rgba(250, 0, 0, 0.5);
+    border-radius: 6px;
+  }
