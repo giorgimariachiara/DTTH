@@ -1675,4 +1675,16 @@ color: white;
     font-family: var(--font-secondary);
     font-size: 60px;
     }
-    
+  
+
+.videochiesa {
+    border-style: double;
+    border: 100px;
+    border-color:  var(--color-primary);
+
+}
+
+iframe {
+
+  marginwidt: "";
+}
