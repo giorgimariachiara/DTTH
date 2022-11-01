@@ -1335,163 +1335,13 @@ h6 {
   padding-top:35px;
   text-align: center;
   margin-left: 30px;
-  border-width: 2px;
-  border-color:white;
+
   }
-                                                                                     
+
       .ml {
         margin-left: 80px;
        }
-.butn1 {
-  font-size: 25px;
-  font-weight:bold;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  background: none;
-  background-color: black;
-  border: none;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 30px;
- }
-
-.butn2 {
-  font-size: 25px;
-  font-weight:bold;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  background: none;
-  background-color:black;
-  border: none;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 30px;
-}
-
-.butn3 {
-  font-size: 25px;
-  font-weight: bold;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  background: none;
-  background-color: black;
-  border: none;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 30px;
-}
-.butn4 {
-  font-size: 25px;
-  font-weight:bold;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  background: none;
-  background-color:black;
-  border: none;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 30px;
-}
-
-.butn5 {
-  font-size: 25px;
-  font-weight: bold;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  background: none;
-  background-color: black;
-  border: none;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 30px;
-}
-.butn6 {
-  font-size: 25px;
-  font-weight:bold;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  background: none;
-  background-color:black;
-  border: none;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 30px;
-}
-
-.butn7 {
-  font-size: 25px;
-  font-weight: bold;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  background: none;
-  background-color: black;
-  border: none;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 50px;
-}
-.butn8 {
-  font-size: 25px;
-  font-weight:bold;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  background: none;
-  background-color:black;
-  border: none;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 50px;
-}
-
-.butn9 {
-  font-size: 25px;
-  font-weight: bold;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  background: none;
-  background-color: black;
-  border: none;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 50px;
-}
-.butn10 {
-  font-size: 25px;
-  font-weight: bold;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  background: none;
-  background-color: black;
-  border: none;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 50px;
-}
-.butn11 {
-  font-size: 25px;
-  font-weight: bold;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  background: none;
-  background-color: black;
-  border: none;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 50px;
-}
-.butn12 {
-  font-size: 25px;
-  font-weight: bold;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  background: none;
-  background-color: black;
-  border: none;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 50px;
-}
-.butn13 {
+.but {
   font-size: 25px;
   font-weight: bold;
   color: white;
@@ -1512,53 +1362,9 @@ text-decoration-color:rgb(111, 0, 0);
 font-family: Garamond;
 }
 
-.butn1:hover {
+.but:hover {
   color: rgba(255, 255, 255, 0.7);
   }
-
-.butn2:hover {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.butn3:hover {
-  color: rgba(255, 255, 255, 0.7);
-  }
-  .butn4:hover {
-    color: rgba(255, 255, 255, 0.7);
-  }
-  
-  .butn5:hover {
-    color: rgba(255, 255, 255, 0.7);
-  }
-  
-  .butn6:hover {
-    color: rgba(255, 255, 255, 0.7);
-  }
-    .butn7:hover {
-      color: rgba(255, 255, 255, 0.7);
-    }
-    
-    .butn8:hover {
-      color: rgba(255, 255, 255, 0.7);
-    }
-    
-    .butn9:hover {
-      color: rgba(255, 255, 255, 0.7);
-    }
-      .butn10:hover {
-        color: rgba(255, 255, 255, 0.7);
-      }
-      
-      .butn11:hover {
-        color: rgba(255, 255, 255, 0.7);
-      }
-      
-      .butn12:hover {
-        color: rgba(255, 255, 255, 0.7);
-      }
-        .butn13:hover {
-          color: rgba(255, 255, 255, 0.7);
-        }
               
             
 .butn:hover{
@@ -1567,11 +1373,9 @@ color: white;
 .butn{
   color: rgb(111, 0, 0);
 }
-
-
  .item1{
   text-align: center;
-  padding-top: 20px;
+  padding-top: 10px;
   font-size: 24px;
   }
 
@@ -1579,6 +1383,8 @@ color: white;
     text-align: center;
     padding-top:10px;
     font-size: 16px;
+    border-width: 22px;
+  border-color:white;
   }
 
 
