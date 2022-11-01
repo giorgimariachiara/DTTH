@@ -1335,48 +1335,13 @@ h6 {
   padding-top:35px;
   text-align: center;
   margin-left: 30px;
+  border-width: 2px;
+  border-color:white;
   }
-
-  #content1 p{
-  margin-left: 80px;
-  }
-  #content2 p{
-    margin-left: 80px;
-    }
-  #content3 p{
-    margin-left: 80px;
-    }
-  #content4 p{
-    margin-left: 80px;
-    }
-  #content5 p{
-    margin-left: 80px;
-    }
-  #content6 p{
-    margin-left: 80px;
-      }
-  #content7 p{
-    margin-left: 80px;
-          }
-  #content8 p{
-    margin-left: 80px;
-      }
-  #content9 p{
-    margin-left: 80px;
-      }
-  #content10 p{
-    margin-left: 80px;
-      }
-  #content11 p{
-    margin-left: 80px;
-      }
-  #content12 p{
-    margin-left: 80px;
-      }      
-  #content13 p{
-    margin-left: 80px;
-      }                                                                                      
-
+                                                                                     
+      .ml {
+        margin-left: 80px;
+       }
 .butn1 {
   font-size: 25px;
   font-weight:bold;
@@ -1607,7 +1572,13 @@ color: white;
  .item1{
   text-align: center;
   padding-top: 20px;
-  font-size: 20px;
+  font-size: 24px;
+  }
+
+  .item2{
+    text-align: center;
+    padding-top:10px;
+    font-size: 16px;
   }
 
 
