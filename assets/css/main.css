@@ -19,7 +19,7 @@
 /* Colors */
 :root {
   --color-default: #fafafa;
-  --color-primary: #27a776;
+  --color-primary: #ef000080;
   --color-secondary: #161718;
 }
 
@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-  color: #32cf93;
+  color: var(--color-primary);
   text-decoration: none;
 }
 
@@ -54,7 +54,9 @@ h4,
 h5,
 h6 {
   font-family: var(--font-primary);
+
 }
+
 
 /*--------------------------------------------------------------
 # Sections & Section Header
@@ -80,7 +82,7 @@ h6 {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #5bd9a9;
+  background:var(--color-primary);
   margin: 4px 10px;
 }
 
@@ -134,7 +136,7 @@ h6 {
 }
 
 .page-header .cta-btn:hover {
-  background: #2cbc85;
+  background:var(--color-primary);
 }
 
 /*--------------------------------------------------------------
@@ -654,7 +656,7 @@ h6 {
   box-sizing: content-box;
   padding: 30px;
   margin: 40px 30px;
-  background: blueviolet;
+  background: var(--color-primary);
   min-height: 320px;
   display: flex;
   flex-direction: column;
@@ -667,7 +669,7 @@ h6 {
 }
 
 .testimonials .testimonial-item .stars i {
-  color: #ffc107;
+  color:var(--color-primary);
   margin: 0 1px;
 }
 
@@ -903,7 +905,7 @@ h6 {
 }
 
 .gallery-single .portfolio-info .btn-visit:hover {
-  background: #2cbc85;
+  background: var(--color-primary);
 }
 
 .gallery-single .portfolio-description h2 {
@@ -949,7 +951,7 @@ h6 {
 
 .gallery-single .portfolio-description .testimonial-item .quote-icon-left,
 .gallery-single .portfolio-description .testimonial-item .quote-icon-right {
-  color: #5bd9a9;
+  color: var(--color-primary);
   font-size: 26px;
   line-height: 0;
 }
@@ -986,10 +988,17 @@ h6 {
   z-index: 1;
 }
 
+.giornali{
+  width: 100%;
+  height: 85%;
+  
+}
+
+
 .services .service-item:before {
   content: "";
   position: absolute;
-  background: #1d1f20;
+  background: var(--color-secondary);
   top: -200px;
   transition: all 0.3s;
   z-index: -1;
@@ -1123,7 +1132,7 @@ h6 {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #df1529;
+  background:var(--color-primary);
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1191,7 +1200,7 @@ h6 {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(39, 167, 118, 0.8);
+  background: var(--color-primary);
 }
 
 @-webkit-keyframes animate-loading {
@@ -1273,7 +1282,7 @@ h6 {
 }
 
 .hero .btn-get-started:hover {
-  background: #2cbc85;
+  background: var(--color-primary)
 }
 
 @media (max-width: 768px) {
@@ -1318,7 +1327,7 @@ h6 {
 # text
 --------------------------------------------------------------*/
 .titlecontent {
-  color:#954e13;
+  color:white;
   font-weight: bold;
   font-size: 25px;
   text-transform:uppercase;
@@ -1334,23 +1343,44 @@ h6 {
   #content2 p{
     margin-left: 80px;
     }
-    #content3 p{
-      margin-left: 80px;
+  #content3 p{
+    margin-left: 80px;
+    }
+  #content4 p{
+    margin-left: 80px;
+    }
+  #content5 p{
+    margin-left: 80px;
+    }
+  #content6 p{
+    margin-left: 80px;
       }
-    #content4 p{
-      margin-left: 80px;
-      }
-      #content5 p{
-        margin-left: 80px;
-        }
-        #content6 p{
-          margin-left: 80px;
+  #content7 p{
+    margin-left: 80px;
           }
+  #content8 p{
+    margin-left: 80px;
+      }
+  #content9 p{
+    margin-left: 80px;
+      }
+  #content10 p{
+    margin-left: 80px;
+      }
+  #content11 p{
+    margin-left: 80px;
+      }
+  #content12 p{
+    margin-left: 80px;
+      }      
+  #content13 p{
+    margin-left: 80px;
+      }                                                                                      
 
 .butn1 {
   font-size: 25px;
   font-weight:bold;
-  color: rgb(190, 8, 8);
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   background: none;
   background-color: black;
@@ -1363,7 +1393,7 @@ h6 {
 .butn2 {
   font-size: 25px;
   font-weight:bold;
-  color: rgb(190, 8, 8);
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   background: none;
   background-color:black;
@@ -1376,7 +1406,7 @@ h6 {
 .butn3 {
   font-size: 25px;
   font-weight: bold;
-  color: rgb(190, 8, 8);
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   background: none;
   background-color: black;
@@ -1388,7 +1418,7 @@ h6 {
 .butn4 {
   font-size: 25px;
   font-weight:bold;
-  color: rgb(190, 8, 8);
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   background: none;
   background-color:black;
@@ -1401,7 +1431,7 @@ h6 {
 .butn5 {
   font-size: 25px;
   font-weight: bold;
-  color: rgb(190, 8, 8);
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   background: none;
   background-color: black;
@@ -1413,7 +1443,7 @@ h6 {
 .butn6 {
   font-size: 25px;
   font-weight:bold;
-  color: rgb(190, 8, 8);
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   background: none;
   background-color:black;
@@ -1426,7 +1456,7 @@ h6 {
 .butn7 {
   font-size: 25px;
   font-weight: bold;
-  color: rgb(190, 8, 8);
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   background: none;
   background-color: black;
@@ -1438,7 +1468,7 @@ h6 {
 .butn8 {
   font-size: 25px;
   font-weight:bold;
-  color: rgb(190, 8, 8);
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   background: none;
   background-color:black;
@@ -1451,7 +1481,7 @@ h6 {
 .butn9 {
   font-size: 25px;
   font-weight: bold;
-  color: rgb(190, 8, 8);
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   background: none;
   background-color: black;
@@ -1463,7 +1493,7 @@ h6 {
 .butn10 {
   font-size: 25px;
   font-weight: bold;
-  color: rgb(190, 8, 8);
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   background: none;
   background-color: black;
@@ -1475,7 +1505,7 @@ h6 {
 .butn11 {
   font-size: 25px;
   font-weight: bold;
-  color: rgb(190, 8, 8);
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   background: none;
   background-color: black;
@@ -1487,7 +1517,7 @@ h6 {
 .butn12 {
   font-size: 25px;
   font-weight: bold;
-  color: rgb(190, 8, 8);
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   background: none;
   background-color: black;
@@ -1499,7 +1529,7 @@ h6 {
 .butn13 {
   font-size: 25px;
   font-weight: bold;
-  color: rgb(190, 8, 8);
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   background: none;
   background-color: black;
@@ -1508,37 +1538,69 @@ h6 {
   margin-right: 15px;
   padding-bottom: 50px;
 }
-.poeti {
+.sezioni{
 margin-top: 100px;
 font-size: 20px;
-color: #000000;
+color: #ffffff;
 text-decoration: dotted;
-text-decoration-color:#b0955e;
+text-decoration-color:rgb(111, 0, 0);
 font-family: Garamond;
 }
 
 .butn1:hover {
-  color: white;
+  color: rgba(255, 255, 255, 0.7);
   }
-  
-
 
 .butn2:hover {
-color: white;
+  color: rgba(255, 255, 255, 0.7);
 }
 
-
-  
 .butn3:hover {
-color: white;
+  color: rgba(255, 255, 255, 0.7);
+  }
+  .butn4:hover {
+    color: rgba(255, 255, 255, 0.7);
   }
   
-
+  .butn5:hover {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .butn6:hover {
+    color: rgba(255, 255, 255, 0.7);
+  }
+    .butn7:hover {
+      color: rgba(255, 255, 255, 0.7);
+    }
+    
+    .butn8:hover {
+      color: rgba(255, 255, 255, 0.7);
+    }
+    
+    .butn9:hover {
+      color: rgba(255, 255, 255, 0.7);
+    }
+      .butn10:hover {
+        color: rgba(255, 255, 255, 0.7);
+      }
+      
+      .butn11:hover {
+        color: rgba(255, 255, 255, 0.7);
+      }
+      
+      .butn12:hover {
+        color: rgba(255, 255, 255, 0.7);
+      }
+        .butn13:hover {
+          color: rgba(255, 255, 255, 0.7);
+        }
+              
+            
 .butn:hover{
 color: white;
 }
 .butn{
-color:yellow;
+  color: rgb(111, 0, 0);
 }
 
 
@@ -1550,7 +1612,7 @@ color:yellow;
 
 
   .highlight[property~="people"]{
-    background-color: rgba(104, 254, 124, 0.5);
+    background-color: rgba(111, 0, 0 0.5);
     border-radius: 6px;
   }
   
@@ -1558,3 +1620,71 @@ color:yellow;
     background-color: rgba(250, 0, 0, 0.5);
     border-radius: 6px;
   }
+
+
+
+  .scrolltext {
+    position: relative;
+    height: 500px;
+    margin: 0 auto;
+    overflow-y: scroll;
+  }
+
+
+
+  .sezioni {
+    width: 100%;
+    min-height: 30vh;
+    background: #000;
+    background-size: cover;
+    position: relative;
+    padding: 140px 0 60px 0;
+  }
+  
+ 
+  
+  .sezioni span {
+    position: relative;
+    z-index: 1;
+    padding: 0 5px;
+    display: inline-block;
+  }
+  
+  .sezioni span:before {
+    content: "";
+    position: absolute;
+    height: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:rgba(239, 0, 0, 0.5);
+    z-index: -1;
+
+  }
+  
+
+  
+  @media (max-width: 768px) {
+    .hero h2 {
+      font-size: 32px;
+    }
+  }
+
+.container h6{
+    color:rgba(239, 0, 0, 0.5);
+    font-family: var(--font-secondary);
+    font-size: 60px;
+    }
+  
+
+.videochiesa {
+    border-style: double;
+    border: 100px;
+    border-color:  var(--color-primary);
+
+}
+
+iframe {
+
+  marginwidt: "";
+}
