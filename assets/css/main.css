@@ -988,6 +988,7 @@ h6 {
   z-index: 1;
 }
 
+
 .giornali{
   width: 100%;
   height: 85%;
@@ -1335,198 +1336,13 @@ h6 {
   padding-top:35px;
   text-align: center;
   margin-left: 30px;
+
   }
 
-  #content1 p{
-  margin-left: 80px;
-  }
-  #content2 p{
-    margin-left: 80px;
-    }
-  #content3 p{
-    margin-left: 80px;
-    }
-  #content4 p{
-    margin-left: 80px;
-    }
-  #content5 p{
-    margin-left: 80px;
-    }
-  #content6 p{
-    margin-left: 80px;
-      }
-  #content7 p{
-    margin-left: 80px;
-          }
-  #content8 p{
-    margin-left: 80px;
-      }
-  #content9 p{
-    margin-left: 80px;
-      }
-  #content10 p{
-    margin-left: 80px;
-      }
-  #content11 p{
-    margin-left: 80px;
-      }
-  #content12 p{
-    margin-left: 80px;
-      }      
-  #content13 p{
-    margin-left: 80px;
-      }                                                                                      
-
-.butn1 {
-  font-size: 25px;
-  font-weight:bold;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  background: none;
-  background-color: black;
-  border: none;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 30px;
- }
-
-.butn2 {
-  font-size: 25px;
-  font-weight:bold;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  background: none;
-  background-color:black;
-  border: none;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 30px;
-}
-
-.butn3 {
-  font-size: 25px;
-  font-weight: bold;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  background: none;
-  background-color: black;
-  border: none;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 30px;
-}
-.butn4 {
-  font-size: 25px;
-  font-weight:bold;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  background: none;
-  background-color:black;
-  border: none;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 30px;
-}
-
-.butn5 {
-  font-size: 25px;
-  font-weight: bold;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  background: none;
-  background-color: black;
-  border: none;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 30px;
-}
-.butn6 {
-  font-size: 25px;
-  font-weight:bold;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  background: none;
-  background-color:black;
-  border: none;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 30px;
-}
-
-.butn7 {
-  font-size: 25px;
-  font-weight: bold;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  background: none;
-  background-color: black;
-  border: none;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 50px;
-}
-.butn8 {
-  font-size: 25px;
-  font-weight:bold;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  background: none;
-  background-color:black;
-  border: none;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 50px;
-}
-
-.butn9 {
-  font-size: 25px;
-  font-weight: bold;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  background: none;
-  background-color: black;
-  border: none;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 50px;
-}
-.butn10 {
-  font-size: 25px;
-  font-weight: bold;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  background: none;
-  background-color: black;
-  border: none;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 50px;
-}
-.butn11 {
-  font-size: 25px;
-  font-weight: bold;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  background: none;
-  background-color: black;
-  border: none;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 50px;
-}
-.butn12 {
-  font-size: 25px;
-  font-weight: bold;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  background: none;
-  background-color: black;
-  border: none;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-bottom: 50px;
-}
-.butn13 {
+      .ml {
+        margin-left: 80px;
+       }
+.but {
   font-size: 25px;
   font-weight: bold;
   color: white;
@@ -1547,53 +1363,9 @@ text-decoration-color:rgb(111, 0, 0);
 font-family: Garamond;
 }
 
-.butn1:hover {
+.but:hover {
   color: rgba(255, 255, 255, 0.7);
   }
-
-.butn2:hover {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.butn3:hover {
-  color: rgba(255, 255, 255, 0.7);
-  }
-  .butn4:hover {
-    color: rgba(255, 255, 255, 0.7);
-  }
-  
-  .butn5:hover {
-    color: rgba(255, 255, 255, 0.7);
-  }
-  
-  .butn6:hover {
-    color: rgba(255, 255, 255, 0.7);
-  }
-    .butn7:hover {
-      color: rgba(255, 255, 255, 0.7);
-    }
-    
-    .butn8:hover {
-      color: rgba(255, 255, 255, 0.7);
-    }
-    
-    .butn9:hover {
-      color: rgba(255, 255, 255, 0.7);
-    }
-      .butn10:hover {
-        color: rgba(255, 255, 255, 0.7);
-      }
-      
-      .butn11:hover {
-        color: rgba(255, 255, 255, 0.7);
-      }
-      
-      .butn12:hover {
-        color: rgba(255, 255, 255, 0.7);
-      }
-        .butn13:hover {
-          color: rgba(255, 255, 255, 0.7);
-        }
               
             
 .butn:hover{
@@ -1602,12 +1374,18 @@ color: white;
 .butn{
   color: rgb(111, 0, 0);
 }
-
-
  .item1{
   text-align: center;
-  padding-top: 20px;
-  font-size: 20px;
+  padding-top: 10px;
+  font-size: 24px;
+  }
+
+  .item2{
+    text-align: center;
+    padding-top:10px;
+    font-size: 16px;
+    border-width: 22px;
+  border-color:white;
   }
 
 
@@ -1638,7 +1416,7 @@ color: white;
     background: #000;
     background-size: cover;
     position: relative;
-    padding: 140px 0 60px 0;
+    padding: 80px 0 60px 0;
   }
   
  
@@ -1677,14 +1455,15 @@ color: white;
     }
   
 
-.videochiesa {
+.videotg {
     border-style: double;
     border: 100px;
     border-color:  var(--color-primary);
 
 }
 
-iframe {
-
-  marginwidt: "";
+.fotog{
+ margin-top: 150px;
+ margin-left: 50px;
+  
 }
