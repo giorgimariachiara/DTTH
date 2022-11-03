@@ -1379,14 +1379,42 @@ color: white;
 
 
   .highlight[property~="people"]{
-    background-color: rgba(111, 0, 0 0.5);
+    background-color: red;;
     border-radius: 6px;
   }
-  
   .highlight[property~="places"]{
     background-color: rgba(250, 0, 0, 0.5);
     border-radius: 6px;
   }
+  .highlight[property~="monterosso"]{
+    background-color: red;;
+    border-radius: 6px;
+  }
+  .highlight[property~="stazione"]{
+    background-color: red;;
+    border-radius: 6px;
+  }
+  .highlight[property~="villino"]{
+    background-color: red;;
+    border-radius: 6px;
+  }
+  .highlight[property~="caserma"]{
+    background-color: red;;
+    border-radius: 6px;
+  }
+  .highlight[property~="contrada"]{
+    background-color: red;;
+    border-radius: 6px;
+  }
+  .highlight[property~="italia"]{
+    background-color: red;;
+    border-radius: 6px;
+  }
+  .highlight[property~="ristorante"]{
+    background-color: red;;
+    border-radius: 6px;
+  }
+  
 
 
 
