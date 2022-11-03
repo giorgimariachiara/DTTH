@@ -1382,6 +1382,46 @@ color: white;
     background-color: red;;
     border-radius: 6px;
   }
+  .highlight[property~="brigadiere"]{
+    background-color: yellow;
+    border-radius: 6px;
+  }
+  .highlight[property~="roccella"]{
+    background-color: violet;
+    border-radius: 6px;
+  }
+  .highlight[property~="commissario"]{
+    background-color: white;
+    border-radius: 6px;
+  }
+  .highlight[property~="questore"]{
+    background-color:blue;
+    border-radius: 6px;
+  }
+  .highlight[property~="figlio"]{
+    background-color:magenta;
+    border-radius: 6px;
+  }
+  .highlight[property~="moglie"]{
+    background-color: mediumseagreen;
+    border-radius: 6px;
+  }
+  .highlight[property~="uomovolvo"]{
+    background-color: mediumvioletred;
+    border-radius: 6px;
+  }
+  .highlight[property~="professore"]{
+    background-color: olive;
+    border-radius: 6px;
+  }
+  .highlight[property~="capostazione"]{
+    background-color:chocolate;
+    border-radius: 6px;
+  }
+  .highlight[property~="prete"]{
+    background-color:teal;
+    border-radius: 6px;
+  }
   .highlight[property~="places"]{
     background-color: rgba(250, 0, 0, 0.5);
     border-radius: 6px;
