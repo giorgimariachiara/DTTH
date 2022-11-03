@@ -27,7 +27,9 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-
+   
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
@@ -92,7 +94,8 @@
 <div class="col-lg-12 text-center">
     <div class="sezioni">
       <h2>Sections</h2>
-      <button class="sez butn1 but" id="butn1" type="button"> <span>I</span></button>
+      <button class="sez butn1 but" id="butn1" type="button" data-toggle="collapse" data-target="#demo"> <span>I</span></button>
+      <div id="#demo" class="collapse"> ciO </div>
       <button class="sez butn2 but" id="butn2" type="button"> <span>II</span></button>
       <button class="sez butn3 but" id="butn3" type="button"><span>III</span></button>
       <button class="sez butn4 but" id="butn4" type="button" ><span>IV</span></button>
@@ -154,21 +157,33 @@
 
       <div class="col-md-3">
           <div class="titlecontent"><h1>Filters</h1></div>
-              <p> <ul style="list-style-type:none;">
-                <li class="item1"><a class="butn themeButton" role="button" data-theme="places" id="placeButton"><i class="fa fa-map-marker" aria-hidden="true"></i>     Places</a>
-                <ul style="list-style-type:none;">
-                 <li class="item2"><a class="butn" role="button" data-theme="stazione" id="placeButton">  Stazione di Monterosso  </a> </li>
-                 <li class="item2"><a class="butn" role="button" data-theme="villino" id="placeButton">  Villa di Roccella </a> </li>
-                 <li class="item2"><a class="butn" role="button" data-theme="caserma" id="placeButton">  Caserma di Monterosso </a> </li>
-                 <li class="item2"><a class="butn" role="button" data-theme="monterosso" id="placeButton">  Monterosso Almo </a> </li>
-                 <li class="item2"><a class="butn" role="button" data-theme="contrada" id="placeButton">  Contrada Cotugno </a> </li>
-                 <li class="item2"><a class="butn" role="button" data-theme="italia" id="placeButton">  Italia </a> </li>
-                 <li class="item2"><a class="butn" role="button" data-theme="ristorante" id="placeButton">  Le Tre Candele </a> </li>
-                 </ul>
-                 </li>
-                </div>
-                <li class="item1"><a class="butn themeButton" role="button" data-theme="people" id="peopleButton"> <i class="fa fa-user" aria-hidden="true"></i>    People</a></li>
-              </ul>  </p>
+                  <details class="details ml">
+                  <summary><a class="butn themeButton" role="button"  data-theme="places" id="placeButton"><i class="fa fa-map-marker" aria-hidden="true"></i>     Places</a></li></summary>
+               <p>
+                <a class="butn" role="button" data-theme="stazione" id="placeButton">  Stazione di Monterosso  </a> <br>
+                <a class="butn" role="button" data-theme="villino" id="placeButton">  Villa di Roccella </a><br>
+                <a class="butn" role="button" data-theme="caserma" id="placeButton">  Caserma di Monterosso </a> <br>
+                <a class="butn" role="button" data-theme="monterosso" id="placeButton">  Monterosso Almo </a> <br>
+                <a class="butn" role="button" data-theme="contrada" id="placeButton">  Contrada Cotugno </a> <br>
+                <a class="butn" role="button" data-theme="italia" id="placeButton">  Italia </a> <br>
+                <a class="butn" role="button" data-theme="ristorante" id="placeButton">  Le Tre Candele </a> <br>
+               </p>
+              </details>
+               <details class="details ml">
+               <summary><a class="butn themeButton" role="button" data-theme="people" id="peopleButton"> <i class="fa fa-user" aria-hidden="true"></i>    People</a></summary>
+               </p>
+               <a class="butn" role="button" data-theme="brigadiere" id="placeButton"> Brigadiere Antonio Langadara </a> <br>
+               <a class="butn" role="button" data-theme="capostazione" id="placeButton">  Capostazione</a><br>
+               <a class="butn" role="button" data-theme="roccella" id="placeButton">  Giorgio Roccella </a> <br>
+               <a class="butn" role="button" data-theme="professore" id="placeButton">  Professor Carmello Franzò </a> <br>
+               <a class="butn" role="button" data-theme="uomovolvo" id="placeButton"> Uomo della Volvo </a> <br>
+               <a class="butn" role="button" data-theme="prete" id="placeButton"> Padre Cricco </a> <br>
+               <a class="butn" role="button" data-theme="questore" id="placeButton">  Questore </a> <br>
+               <a class="butn" role="button" data-theme="procuratore" id="placeButton">  Procuratore </a> <br>
+               <a class="butn" role="button" data-theme="figlio" id="placeButton"> Figlio di Roccella </a> <br>
+               <a class="butn" role="button" data-theme="moglie" id="placeButton">  La signora Roccella </a> <br>
+              </p>
+               </details>
           </div>      
       </div>                   
   </div>
@@ -218,10 +233,33 @@
 
       <div class="col-md-3">
           <div class="titlecontent"><h1>Filters</h1></div>
-          <p> <ul style="list-style-type:none;">
-            <li class="item1"><a class="butn themeButton" role="button" data-theme="places" id="placeButton">  <i class="fa fa-map-marker" aria-hidden="true"></i>     Places</a></li>
-            <li class="item1"><a class="butn themeButton" role="button" data-theme="people" id="peopleButton"> <i class="fa fa-user" aria-hidden="true"></i>    People</a></li>
-          </ul>   </p>
+          <details class="details ml">
+            <summary><a class="butn themeButton" role="button"  data-theme="places" id="placeButton"><i class="fa fa-map-marker" aria-hidden="true"></i>     Places</a></li></summary>
+         <p>
+          <a class="butn" role="button" data-theme="stazione" id="placeButton">  Stazione di Monterosso  </a> <br>
+          <a class="butn" role="button" data-theme="villino" id="placeButton">  Villa di Roccella </a><br>
+          <a class="butn" role="button" data-theme="caserma" id="placeButton">  Caserma di Monterosso </a> <br>
+          <a class="butn" role="button" data-theme="monterosso" id="placeButton">  Monterosso Almo </a> <br>
+          <a class="butn" role="button" data-theme="contrada" id="placeButton">  Contrada Cotugno </a> <br>
+          <a class="butn" role="button" data-theme="italia" id="placeButton">  Italia </a> <br>
+          <a class="butn" role="button" data-theme="ristorante" id="placeButton">  Le Tre Candele </a> <br>
+         </p>
+        </details>
+         <details class="details ml">
+         <summary><a class="butn themeButton" role="button" data-theme="people" id="peopleButton"> <i class="fa fa-user" aria-hidden="true"></i>    People</a></summary>
+         </p>
+         <a class="butn" role="button" data-theme="brigadiere" id="placeButton"> Brigadiere Antonio Langadara </a> <br>
+         <a class="butn" role="button" data-theme="capostazione" id="placeButton">  Capostazione</a><br>
+         <a class="butn" role="button" data-theme="roccella" id="placeButton">  Giorgio Roccella </a> <br>
+         <a class="butn" role="button" data-theme="professore" id="placeButton">  Professor Carmello Franzò </a> <br>
+         <a class="butn" role="button" data-theme="uomovolvo" id="placeButton"> Uomo della Volvo </a> <br>
+         <a class="butn" role="button" data-theme="prete" id="placeButton"> Padre Cricco </a> <br>
+         <a class="butn" role="button" data-theme="questore" id="placeButton">  Questore </a> <br>
+         <a class="butn" role="button" data-theme="procuratore" id="placeButton">  Procuratore </a> <br>
+         <a class="butn" role="button" data-theme="figlio" id="placeButton"> Figlio di Roccella </a> <br>
+         <a class="butn" role="button" data-theme="moglie" id="placeButton">  La signora Roccella </a> <br>
+        </p>
+         </details>   
       </div>      
       </div>                   
   </div>
@@ -293,11 +331,34 @@
 
       <div class="col-md-3">
           <div class="titlecontent"><h1>Filters</h1></div>
-          <p> <ul style="list-style-type:none;">
-            <li class="item1"><a class="butn themeButton" role="button" data-theme="places" id="placeButton">  <i class="fa fa-map-marker" aria-hidden="true"></i>     Places</a></li>
-            <li class="item1"><a class="butn themeButton" role="button" data-theme="people" id="peopleButton"> <i class="fa fa-user" aria-hidden="true"></i>    People</a></li>
-          </ul>   </p>
-      </div>      
+          <details class="details ml">
+            <summary><a class="butn themeButton" role="button"  data-theme="places" id="placeButton"><i class="fa fa-map-marker" aria-hidden="true"></i>     Places</a></li></summary>
+         <p>
+          <a class="butn" role="button" data-theme="stazione" id="placeButton">  Stazione di Monterosso  </a> <br>
+          <a class="butn" role="button" data-theme="villino" id="placeButton">  Villa di Roccella </a><br>
+          <a class="butn" role="button" data-theme="caserma" id="placeButton">  Caserma di Monterosso </a> <br>
+          <a class="butn" role="button" data-theme="monterosso" id="placeButton">  Monterosso Almo </a> <br>
+          <a class="butn" role="button" data-theme="contrada" id="placeButton">  Contrada Cotugno </a> <br>
+          <a class="butn" role="button" data-theme="italia" id="placeButton">  Italia </a> <br>
+          <a class="butn" role="button" data-theme="ristorante" id="placeButton">  Le Tre Candele </a> <br>
+         </p>
+        </details>
+         <details class="details ml">
+         <summary><a class="butn themeButton" role="button" data-theme="people" id="peopleButton"> <i class="fa fa-user" aria-hidden="true"></i>    People</a></summary>
+         </p>
+         <a class="butn" role="button" data-theme="brigadiere" id="placeButton"> Brigadiere Antonio Langadara </a> <br>
+         <a class="butn" role="button" data-theme="capostazione" id="placeButton">  Capostazione</a><br>
+         <a class="butn" role="button" data-theme="roccella" id="placeButton">  Giorgio Roccella </a> <br>
+         <a class="butn" role="button" data-theme="professore" id="placeButton">  Professor Carmello Franzò </a> <br>
+         <a class="butn" role="button" data-theme="uomovolvo" id="placeButton"> Uomo della Volvo </a> <br>
+         <a class="butn" role="button" data-theme="prete" id="placeButton"> Padre Cricco </a> <br>
+         <a class="butn" role="button" data-theme="questore" id="placeButton">  Questore </a> <br>
+         <a class="butn" role="button" data-theme="procuratore" id="placeButton">  Procuratore </a> <br>
+         <a class="butn" role="button" data-theme="figlio" id="placeButton"> Figlio di Roccella </a> <br>
+         <a class="butn" role="button" data-theme="moglie" id="placeButton">  La signora Roccella </a> <br>
+        </p>
+         </details>
+    </div>      
       </div>                   
   </div>
 </div>
@@ -366,11 +427,34 @@
 
       <div class="col-md-3">
           <div class="titlecontent"><h1>Filters</h1></div>
-          <p> <ul style="list-style-type:none;">
-            <li class="item1"><a class="butn themeButton" role="button" data-theme="places" id="placeButton">  <i class="fa fa-map-marker" aria-hidden="true"></i>     Places</a></li>
-            <li class="item1"><a class="butn themeButton" role="button" data-theme="people" id="peopleButton"> <i class="fa fa-user" aria-hidden="true"></i>    People</a></li>
-          </ul>   </p>
-      </div>      
+          <details class="details ml">
+            <summary><a class="butn themeButton" role="button"  data-theme="places" id="placeButton"><i class="fa fa-map-marker" aria-hidden="true"></i>     Places</a></li></summary>
+         <p>
+          <a class="butn" role="button" data-theme="stazione" id="placeButton">  Stazione di Monterosso  </a> <br>
+          <a class="butn" role="button" data-theme="villino" id="placeButton">  Villa di Roccella </a><br>
+          <a class="butn" role="button" data-theme="caserma" id="placeButton">  Caserma di Monterosso </a> <br>
+          <a class="butn" role="button" data-theme="monterosso" id="placeButton">  Monterosso Almo </a> <br>
+          <a class="butn" role="button" data-theme="contrada" id="placeButton">  Contrada Cotugno </a> <br>
+          <a class="butn" role="button" data-theme="italia" id="placeButton">  Italia </a> <br>
+          <a class="butn" role="button" data-theme="ristorante" id="placeButton">  Le Tre Candele </a> <br>
+         </p>
+        </details>
+         <details class="details ml">
+         <summary><a class="butn themeButton" role="button" data-theme="people" id="peopleButton"> <i class="fa fa-user" aria-hidden="true"></i>    People</a></summary>
+         </p>
+         <a class="butn" role="button" data-theme="brigadiere" id="placeButton"> Brigadiere Antonio Langadara </a> <br>
+         <a class="butn" role="button" data-theme="capostazione" id="placeButton">  Capostazione</a><br>
+         <a class="butn" role="button" data-theme="roccella" id="placeButton">  Giorgio Roccella </a> <br>
+         <a class="butn" role="button" data-theme="professore" id="placeButton">  Professor Carmello Franzò </a> <br>
+         <a class="butn" role="button" data-theme="uomovolvo" id="placeButton"> Uomo della Volvo </a> <br>
+         <a class="butn" role="button" data-theme="prete" id="placeButton"> Padre Cricco </a> <br>
+         <a class="butn" role="button" data-theme="questore" id="placeButton">  Questore </a> <br>
+         <a class="butn" role="button" data-theme="procuratore" id="placeButton">  Procuratore </a> <br>
+         <a class="butn" role="button" data-theme="figlio" id="placeButton"> Figlio di Roccella </a> <br>
+         <a class="butn" role="button" data-theme="moglie" id="placeButton">  La signora Roccella </a> <br>
+        </p>
+         </details>
+    </div>      
       </div>                   
   </div>
 </div>
@@ -439,11 +523,34 @@
 
       <div class="col-md-3">
           <div class="titlecontent"><h1>Filters</h1></div>
-          <p> <ul style="list-style-type:none;">
-            <li class="item1"><a class="butn themeButton" role="button" data-theme="places" id="placeButton">  <i class="fa fa-map-marker" aria-hidden="true"></i>     Places</a></li>
-            <li class="item1"><a class="butn themeButton" role="button" data-theme="people" id="peopleButton"> <i class="fa fa-user" aria-hidden="true"></i>    People</a></li>
-          </ul>   </p>
-      </div>      
+          <details class="details ml">
+            <summary><a class="butn themeButton" role="button"  data-theme="places" id="placeButton"><i class="fa fa-map-marker" aria-hidden="true"></i>     Places</a></li></summary>
+         <p>
+          <a class="butn" role="button" data-theme="stazione" id="placeButton">  Stazione di Monterosso  </a> <br>
+          <a class="butn" role="button" data-theme="villino" id="placeButton">  Villa di Roccella </a><br>
+          <a class="butn" role="button" data-theme="caserma" id="placeButton">  Caserma di Monterosso </a> <br>
+          <a class="butn" role="button" data-theme="monterosso" id="placeButton">  Monterosso Almo </a> <br>
+          <a class="butn" role="button" data-theme="contrada" id="placeButton">  Contrada Cotugno </a> <br>
+          <a class="butn" role="button" data-theme="italia" id="placeButton">  Italia </a> <br>
+          <a class="butn" role="button" data-theme="ristorante" id="placeButton">  Le Tre Candele </a> <br>
+         </p>
+        </details>
+         <details class="details ml">
+         <summary><a class="butn themeButton" role="button" data-theme="people" id="peopleButton"> <i class="fa fa-user" aria-hidden="true"></i>    People</a></summary>
+         </p>
+         <a class="butn" role="button" data-theme="brigadiere" id="placeButton"> Brigadiere Antonio Langadara </a> <br>
+         <a class="butn" role="button" data-theme="capostazione" id="placeButton">  Capostazione</a><br>
+         <a class="butn" role="button" data-theme="roccella" id="placeButton">  Giorgio Roccella </a> <br>
+         <a class="butn" role="button" data-theme="professore" id="placeButton">  Professor Carmello Franzò </a> <br>
+         <a class="butn" role="button" data-theme="uomovolvo" id="placeButton"> Uomo della Volvo </a> <br>
+         <a class="butn" role="button" data-theme="prete" id="placeButton"> Padre Cricco </a> <br>
+         <a class="butn" role="button" data-theme="questore" id="placeButton">  Questore </a> <br>
+         <a class="butn" role="button" data-theme="procuratore" id="placeButton">  Procuratore </a> <br>
+         <a class="butn" role="button" data-theme="figlio" id="placeButton"> Figlio di Roccella </a> <br>
+         <a class="butn" role="button" data-theme="moglie" id="placeButton">  La signora Roccella </a> <br>
+        </p>
+         </details>
+    </div>      
       </div>                   
   </div>
 </div>
@@ -520,11 +627,34 @@
 
       <div class="col-md-3">
           <div class="titlecontent"><h1>Filters</h1></div>
-          <p> <ul style="list-style-type:none;">
-            <li class="item1"><a class="butn themeButton" role="button" data-theme="places" id="placeButton">  <i class="fa fa-map-marker" aria-hidden="true"></i>     Places</a></li>
-            <li class="item1"><a class="butn themeButton" role="button" data-theme="people" id="peopleButton"> <i class="fa fa-user" aria-hidden="true"></i>    People</a></li>
-          </ul>   </p>
-      </div>      
+          <details class="details ml">
+            <summary><a class="butn themeButton" role="button"  data-theme="places" id="placeButton"><i class="fa fa-map-marker" aria-hidden="true"></i>     Places</a></li></summary>
+         <p>
+          <a class="butn" role="button" data-theme="stazione" id="placeButton">  Stazione di Monterosso  </a> <br>
+          <a class="butn" role="button" data-theme="villino" id="placeButton">  Villa di Roccella </a><br>
+          <a class="butn" role="button" data-theme="caserma" id="placeButton">  Caserma di Monterosso </a> <br>
+          <a class="butn" role="button" data-theme="monterosso" id="placeButton">  Monterosso Almo </a> <br>
+          <a class="butn" role="button" data-theme="contrada" id="placeButton">  Contrada Cotugno </a> <br>
+          <a class="butn" role="button" data-theme="italia" id="placeButton">  Italia </a> <br>
+          <a class="butn" role="button" data-theme="ristorante" id="placeButton">  Le Tre Candele </a> <br>
+         </p>
+        </details>
+         <details class="details ml">
+         <summary><a class="butn themeButton" role="button" data-theme="people" id="peopleButton"> <i class="fa fa-user" aria-hidden="true"></i>    People</a></summary>
+         </p>
+         <a class="butn" role="button" data-theme="brigadiere" id="placeButton"> Brigadiere Antonio Langadara </a> <br>
+         <a class="butn" role="button" data-theme="capostazione" id="placeButton">  Capostazione</a><br>
+         <a class="butn" role="button" data-theme="roccella" id="placeButton">  Giorgio Roccella </a> <br>
+         <a class="butn" role="button" data-theme="professore" id="placeButton">  Professor Carmello Franzò </a> <br>
+         <a class="butn" role="button" data-theme="uomovolvo" id="placeButton"> Uomo della Volvo </a> <br>
+         <a class="butn" role="button" data-theme="prete" id="placeButton"> Padre Cricco </a> <br>
+         <a class="butn" role="button" data-theme="questore" id="placeButton">  Questore </a> <br>
+         <a class="butn" role="button" data-theme="procuratore" id="placeButton">  Procuratore </a> <br>
+         <a class="butn" role="button" data-theme="figlio" id="placeButton"> Figlio di Roccella </a> <br>
+         <a class="butn" role="button" data-theme="moglie" id="placeButton">  La signora Roccella </a> <br>
+        </p>
+         </details>
+    </div>        
       </div>                   
   </div>
 </div>
@@ -600,11 +730,34 @@ La battuta era feroce. Il magistrato impallidì. E passò a un duro interrogator
 
       <div class="col-md-3">
           <div class="titlecontent"><h1>Filters</h1></div>
-          <p> <ul style="list-style-type:none;">
-            <li class="item1"><a class="butn themeButton" role="button" data-theme="places" id="placeButton">  <i class="fa fa-map-marker" aria-hidden="true"></i>     Places</a></li>
-            <li class="item1"><a class="butn themeButton" role="button" data-theme="people" id="peopleButton"> <i class="fa fa-user" aria-hidden="true"></i>    People</a></li>
-          </ul>   </p>
-      </div>      
+          <details class="details ml">
+            <summary><a class="butn themeButton" role="button"  data-theme="places" id="placeButton"><i class="fa fa-map-marker" aria-hidden="true"></i>     Places</a></li></summary>
+         <p>
+          <a class="butn" role="button" data-theme="stazione" id="placeButton">  Stazione di Monterosso  </a> <br>
+          <a class="butn" role="button" data-theme="villino" id="placeButton">  Villa di Roccella </a><br>
+          <a class="butn" role="button" data-theme="caserma" id="placeButton">  Caserma di Monterosso </a> <br>
+          <a class="butn" role="button" data-theme="monterosso" id="placeButton">  Monterosso Almo </a> <br>
+          <a class="butn" role="button" data-theme="contrada" id="placeButton">  Contrada Cotugno </a> <br>
+          <a class="butn" role="button" data-theme="italia" id="placeButton">  Italia </a> <br>
+          <a class="butn" role="button" data-theme="ristorante" id="placeButton">  Le Tre Candele </a> <br>
+         </p>
+        </details>
+         <details class="details ml">
+         <summary><a class="butn themeButton" role="button" data-theme="people" id="peopleButton"> <i class="fa fa-user" aria-hidden="true"></i>    People</a></summary>
+         </p>
+         <a class="butn" role="button" data-theme="brigadiere" id="placeButton"> Brigadiere Antonio Langadara </a> <br>
+         <a class="butn" role="button" data-theme="capostazione" id="placeButton">  Capostazione</a><br>
+         <a class="butn" role="button" data-theme="roccella" id="placeButton">  Giorgio Roccella </a> <br>
+         <a class="butn" role="button" data-theme="professore" id="placeButton">  Professor Carmello Franzò </a> <br>
+         <a class="butn" role="button" data-theme="uomovolvo" id="placeButton"> Uomo della Volvo </a> <br>
+         <a class="butn" role="button" data-theme="prete" id="placeButton"> Padre Cricco </a> <br>
+         <a class="butn" role="button" data-theme="questore" id="placeButton">  Questore </a> <br>
+         <a class="butn" role="button" data-theme="procuratore" id="placeButton">  Procuratore </a> <br>
+         <a class="butn" role="button" data-theme="figlio" id="placeButton"> Figlio di Roccella </a> <br>
+         <a class="butn" role="button" data-theme="moglie" id="placeButton">  La signora Roccella </a> <br>
+        </p>
+         </details>
+    </div>       
       </div>                   
   </div>
 </div>
@@ -661,11 +814,34 @@ La battuta era feroce. Il magistrato impallidì. E passò a un duro interrogator
 
       <div class="col-md-3">
           <div class="titlecontent"><h1>Filters</h1></div>
-          <p> <ul style="list-style-type:none;">
-            <li class="item1"><a class="butn themeButton" role="button" data-theme="places" id="placeButton">  <i class="fa fa-map-marker" aria-hidden="true"></i>     Places</a></li>
-            <li class="item1"><a class="butn themeButton" role="button" data-theme="people" id="peopleButton"> <i class="fa fa-user" aria-hidden="true"></i>    People</a></li>
-          </ul>   </p>
-      </div>      
+          <details class="details ml">
+            <summary><a class="butn themeButton" role="button"  data-theme="places" id="placeButton"><i class="fa fa-map-marker" aria-hidden="true"></i>     Places</a></li></summary>
+         <p>
+          <a class="butn" role="button" data-theme="stazione" id="placeButton">  Stazione di Monterosso  </a> <br>
+          <a class="butn" role="button" data-theme="villino" id="placeButton">  Villa di Roccella </a><br>
+          <a class="butn" role="button" data-theme="caserma" id="placeButton">  Caserma di Monterosso </a> <br>
+          <a class="butn" role="button" data-theme="monterosso" id="placeButton">  Monterosso Almo </a> <br>
+          <a class="butn" role="button" data-theme="contrada" id="placeButton">  Contrada Cotugno </a> <br>
+          <a class="butn" role="button" data-theme="italia" id="placeButton">  Italia </a> <br>
+          <a class="butn" role="button" data-theme="ristorante" id="placeButton">  Le Tre Candele </a> <br>
+         </p>
+        </details>
+         <details class="details ml">
+         <summary><a class="butn themeButton" role="button" data-theme="people" id="peopleButton"> <i class="fa fa-user" aria-hidden="true"></i>    People</a></summary>
+         </p>
+         <a class="butn" role="button" data-theme="brigadiere" id="placeButton"> Brigadiere Antonio Langadara </a> <br>
+         <a class="butn" role="button" data-theme="capostazione" id="placeButton">  Capostazione</a><br>
+         <a class="butn" role="button" data-theme="roccella" id="placeButton">  Giorgio Roccella </a> <br>
+         <a class="butn" role="button" data-theme="professore" id="placeButton">  Professor Carmello Franzò </a> <br>
+         <a class="butn" role="button" data-theme="uomovolvo" id="placeButton"> Uomo della Volvo </a> <br>
+         <a class="butn" role="button" data-theme="prete" id="placeButton"> Padre Cricco </a> <br>
+         <a class="butn" role="button" data-theme="questore" id="placeButton">  Questore </a> <br>
+         <a class="butn" role="button" data-theme="procuratore" id="placeButton">  Procuratore </a> <br>
+         <a class="butn" role="button" data-theme="figlio" id="placeButton"> Figlio di Roccella </a> <br>
+         <a class="butn" role="button" data-theme="moglie" id="placeButton">  La signora Roccella </a> <br>
+        </p>
+         </details>
+    </div>       
       </div>                   
   </div>
 </div>
@@ -698,11 +874,34 @@ La battuta era feroce. Il magistrato impallidì. E passò a un duro interrogator
 
       <div class="col-md-3">
           <div class="titlecontent"><h1>Filters</h1></div>
-          <p> <ul style="list-style-type:none;">
-            <li class="item1"><a class="butn themeButton" role="button" data-theme="places" id="placeButton">  <i class="fa fa-map-marker" aria-hidden="true"></i>     Places</a></li>
-            <li class="item1"><a class="butn themeButton" role="button" data-theme="people" id="peopleButton"> <i class="fa fa-user" aria-hidden="true"></i>    People</a></li>
-          </ul>   </p>
-      </div>      
+          <details class="details ml">
+            <summary><a class="butn themeButton" role="button"  data-theme="places" id="placeButton"><i class="fa fa-map-marker" aria-hidden="true"></i>     Places</a></li></summary>
+         <p>
+          <a class="butn" role="button" data-theme="stazione" id="placeButton">  Stazione di Monterosso  </a> <br>
+          <a class="butn" role="button" data-theme="villino" id="placeButton">  Villa di Roccella </a><br>
+          <a class="butn" role="button" data-theme="caserma" id="placeButton">  Caserma di Monterosso </a> <br>
+          <a class="butn" role="button" data-theme="monterosso" id="placeButton">  Monterosso Almo </a> <br>
+          <a class="butn" role="button" data-theme="contrada" id="placeButton">  Contrada Cotugno </a> <br>
+          <a class="butn" role="button" data-theme="italia" id="placeButton">  Italia </a> <br>
+          <a class="butn" role="button" data-theme="ristorante" id="placeButton">  Le Tre Candele </a> <br>
+         </p>
+        </details>
+         <details class="details ml">
+         <summary><a class="butn themeButton" role="button" data-theme="people" id="peopleButton"> <i class="fa fa-user" aria-hidden="true"></i>    People</a></summary>
+         </p>
+         <a class="butn" role="button" data-theme="brigadiere" id="placeButton"> Brigadiere Antonio Langadara </a> <br>
+         <a class="butn" role="button" data-theme="capostazione" id="placeButton">  Capostazione</a><br>
+         <a class="butn" role="button" data-theme="roccella" id="placeButton">  Giorgio Roccella </a> <br>
+         <a class="butn" role="button" data-theme="professore" id="placeButton">  Professor Carmello Franzò </a> <br>
+         <a class="butn" role="button" data-theme="uomovolvo" id="placeButton"> Uomo della Volvo </a> <br>
+         <a class="butn" role="button" data-theme="prete" id="placeButton"> Padre Cricco </a> <br>
+         <a class="butn" role="button" data-theme="questore" id="placeButton">  Questore </a> <br>
+         <a class="butn" role="button" data-theme="procuratore" id="placeButton">  Procuratore </a> <br>
+         <a class="butn" role="button" data-theme="figlio" id="placeButton"> Figlio di Roccella </a> <br>
+         <a class="butn" role="button" data-theme="moglie" id="placeButton">  La signora Roccella </a> <br>
+        </p>
+         </details>
+    </div>        
       </div>                   
   </div>
 </div>
@@ -767,11 +966,34 @@ La battuta era feroce. Il magistrato impallidì. E passò a un duro interrogator
 
       <div class="col-md-3">
           <div class="titlecontent"><h1>Filters</h1></div>
-          <p> <ul style="list-style-type:none;">
-            <li class="item1"><a class="butn themeButton" role="button" data-theme="places" id="placeButton">  <i class="fa fa-map-marker" aria-hidden="true"></i>     Places</a></li>
-            <li class="item1"><a class="butn themeButton" role="button" data-theme="people" id="peopleButton"> <i class="fa fa-user" aria-hidden="true"></i>    People</a></li>
-          </ul>   </p>
-      </div>      
+          <details class="details ml">
+            <summary><a class="butn themeButton" role="button"  data-theme="places" id="placeButton"><i class="fa fa-map-marker" aria-hidden="true"></i>     Places</a></li></summary>
+         <p>
+          <a class="butn" role="button" data-theme="stazione" id="placeButton">  Stazione di Monterosso  </a> <br>
+          <a class="butn" role="button" data-theme="villino" id="placeButton">  Villa di Roccella </a><br>
+          <a class="butn" role="button" data-theme="caserma" id="placeButton">  Caserma di Monterosso </a> <br>
+          <a class="butn" role="button" data-theme="monterosso" id="placeButton">  Monterosso Almo </a> <br>
+          <a class="butn" role="button" data-theme="contrada" id="placeButton">  Contrada Cotugno </a> <br>
+          <a class="butn" role="button" data-theme="italia" id="placeButton">  Italia </a> <br>
+          <a class="butn" role="button" data-theme="ristorante" id="placeButton">  Le Tre Candele </a> <br>
+         </p>
+        </details>
+         <details class="details ml">
+         <summary><a class="butn themeButton" role="button" data-theme="people" id="peopleButton"> <i class="fa fa-user" aria-hidden="true"></i>    People</a></summary>
+         </p>
+         <a class="butn" role="button" data-theme="brigadiere" id="placeButton"> Brigadiere Antonio Langadara </a> <br>
+         <a class="butn" role="button" data-theme="capostazione" id="placeButton">  Capostazione</a><br>
+         <a class="butn" role="button" data-theme="roccella" id="placeButton">  Giorgio Roccella </a> <br>
+         <a class="butn" role="button" data-theme="professore" id="placeButton">  Professor Carmello Franzò </a> <br>
+         <a class="butn" role="button" data-theme="uomovolvo" id="placeButton"> Uomo della Volvo </a> <br>
+         <a class="butn" role="button" data-theme="prete" id="placeButton"> Padre Cricco </a> <br>
+         <a class="butn" role="button" data-theme="questore" id="placeButton">  Questore </a> <br>
+         <a class="butn" role="button" data-theme="procuratore" id="placeButton">  Procuratore </a> <br>
+         <a class="butn" role="button" data-theme="figlio" id="placeButton"> Figlio di Roccella </a> <br>
+         <a class="butn" role="button" data-theme="moglie" id="placeButton">  La signora Roccella </a> <br>
+        </p>
+         </details>
+    </div>        
       </div>                   
   </div>
 </div>
@@ -828,11 +1050,34 @@ La battuta era feroce. Il magistrato impallidì. E passò a un duro interrogator
 
       <div class="col-md-3">
           <div class="titlecontent"><h1>Filters</h1></div>
-          <p> <ul style="list-style-type:none;">
-            <li class="item1"><a class="butn themeButton" role="button" data-theme="places" id="placeButton">  <i class="fa fa-map-marker" aria-hidden="true"></i>     Places</a></li>
-            <li class="item1"><a class="butn themeButton" role="button" data-theme="people" id="peopleButton"> <i class="fa fa-user" aria-hidden="true"></i>    People</a></li>
-          </ul>   </p>
-      </div>      
+          <details class="details ml">
+            <summary><a class="butn themeButton" role="button"  data-theme="places" id="placeButton"><i class="fa fa-map-marker" aria-hidden="true"></i>     Places</a></li></summary>
+         <p>
+          <a class="butn" role="button" data-theme="stazione" id="placeButton">  Stazione di Monterosso  </a> <br>
+          <a class="butn" role="button" data-theme="villino" id="placeButton">  Villa di Roccella </a><br>
+          <a class="butn" role="button" data-theme="caserma" id="placeButton">  Caserma di Monterosso </a> <br>
+          <a class="butn" role="button" data-theme="monterosso" id="placeButton">  Monterosso Almo </a> <br>
+          <a class="butn" role="button" data-theme="contrada" id="placeButton">  Contrada Cotugno </a> <br>
+          <a class="butn" role="button" data-theme="italia" id="placeButton">  Italia </a> <br>
+          <a class="butn" role="button" data-theme="ristorante" id="placeButton">  Le Tre Candele </a> <br>
+         </p>
+        </details>
+         <details class="details ml">
+         <summary><a class="butn themeButton" role="button" data-theme="people" id="peopleButton"> <i class="fa fa-user" aria-hidden="true"></i>    People</a></summary>
+         </p>
+         <a class="butn" role="button" data-theme="brigadiere" id="placeButton"> Brigadiere Antonio Langadara </a> <br>
+         <a class="butn" role="button" data-theme="capostazione" id="placeButton">  Capostazione</a><br>
+         <a class="butn" role="button" data-theme="roccella" id="placeButton">  Giorgio Roccella </a> <br>
+         <a class="butn" role="button" data-theme="professore" id="placeButton">  Professor Carmello Franzò </a> <br>
+         <a class="butn" role="button" data-theme="uomovolvo" id="placeButton"> Uomo della Volvo </a> <br>
+         <a class="butn" role="button" data-theme="prete" id="placeButton"> Padre Cricco </a> <br>
+         <a class="butn" role="button" data-theme="questore" id="placeButton">  Questore </a> <br>
+         <a class="butn" role="button" data-theme="procuratore" id="placeButton">  Procuratore </a> <br>
+         <a class="butn" role="button" data-theme="figlio" id="placeButton"> Figlio di Roccella </a> <br>
+         <a class="butn" role="button" data-theme="moglie" id="placeButton">  La signora Roccella </a> <br>
+        </p>
+         </details>
+    </div>       
       </div>                   
   </div>
 </div>
@@ -883,11 +1128,34 @@ La battuta era feroce. Il magistrato impallidì. E passò a un duro interrogator
 
       <div class="col-md-3">
           <div class="titlecontent"><h1>Filters</h1></div>
-          <p> <ul style="list-style-type:none;">
-            <li class="item1"><a class="butn themeButton" role="button" data-theme="places" id="placeButton">  <i class="fa fa-map-marker" aria-hidden="true"></i>     Places</a></li>
-            <li class="item1"><a class="butn themeButton" role="button" data-theme="people" id="peopleButton"> <i class="fa fa-user" aria-hidden="true"></i>    People</a></li>
-          </ul>   </p>
-      </div>      
+          <details class="details ml">
+            <summary><a class="butn themeButton" role="button"  data-theme="places" id="placeButton"><i class="fa fa-map-marker" aria-hidden="true"></i>     Places</a></li></summary>
+         <p>
+          <a class="butn" role="button" data-theme="stazione" id="placeButton">  Stazione di Monterosso  </a> <br>
+          <a class="butn" role="button" data-theme="villino" id="placeButton">  Villa di Roccella </a><br>
+          <a class="butn" role="button" data-theme="caserma" id="placeButton">  Caserma di Monterosso </a> <br>
+          <a class="butn" role="button" data-theme="monterosso" id="placeButton">  Monterosso Almo </a> <br>
+          <a class="butn" role="button" data-theme="contrada" id="placeButton">  Contrada Cotugno </a> <br>
+          <a class="butn" role="button" data-theme="italia" id="placeButton">  Italia </a> <br>
+          <a class="butn" role="button" data-theme="ristorante" id="placeButton">  Le Tre Candele </a> <br>
+         </p>
+        </details>
+         <details class="details ml">
+         <summary><a class="butn themeButton" role="button" data-theme="people" id="peopleButton"> <i class="fa fa-user" aria-hidden="true"></i>    People</a></summary>
+         </p>
+         <a class="butn" role="button" data-theme="brigadiere" id="placeButton"> Brigadiere Antonio Langadara </a> <br>
+         <a class="butn" role="button" data-theme="capostazione" id="placeButton">  Capostazione</a><br>
+         <a class="butn" role="button" data-theme="roccella" id="placeButton">  Giorgio Roccella </a> <br>
+         <a class="butn" role="button" data-theme="professore" id="placeButton">  Professor Carmello Franzò </a> <br>
+         <a class="butn" role="button" data-theme="uomovolvo" id="placeButton"> Uomo della Volvo </a> <br>
+         <a class="butn" role="button" data-theme="prete" id="placeButton"> Padre Cricco </a> <br>
+         <a class="butn" role="button" data-theme="questore" id="placeButton">  Questore </a> <br>
+         <a class="butn" role="button" data-theme="procuratore" id="placeButton">  Procuratore </a> <br>
+         <a class="butn" role="button" data-theme="figlio" id="placeButton"> Figlio di Roccella </a> <br>
+         <a class="butn" role="button" data-theme="moglie" id="placeButton">  La signora Roccella </a> <br>
+        </p>
+         </details>
+    </div>        
       </div>                   
   </div>
 </div>
@@ -916,11 +1184,34 @@ La battuta era feroce. Il magistrato impallidì. E passò a un duro interrogator
 
       <div class="col-md-3">
           <div class="titlecontent"><h1>Filters</h1></div>
-          <p> <ul style="list-style-type:none;">
-            <li class="item1"><a class="butn themeButton" role="button" data-theme="places" id="placeButton">  <i class="fa fa-map-marker" aria-hidden="true"></i>     Places</a></li>
-            <li class="item1"><a class="butn themeButton" role="button" data-theme="people" id="peopleButton"> <i class="fa fa-user" aria-hidden="true"></i>    People</a></li>
-          </ul>   </p>
-      </div>      
+          <details class="details ml">
+            <summary><a class="butn themeButton" role="button"  data-theme="places" id="placeButton"><i class="fa fa-map-marker" aria-hidden="true"></i>     Places</a></li></summary>
+         <p>
+          <a class="butn" role="button" data-theme="stazione" id="placeButton">  Stazione di Monterosso  </a> <br>
+          <a class="butn" role="button" data-theme="villino" id="placeButton">  Villa di Roccella </a><br>
+          <a class="butn" role="button" data-theme="caserma" id="placeButton">  Caserma di Monterosso </a> <br>
+          <a class="butn" role="button" data-theme="monterosso" id="placeButton">  Monterosso Almo </a> <br>
+          <a class="butn" role="button" data-theme="contrada" id="placeButton">  Contrada Cotugno </a> <br>
+          <a class="butn" role="button" data-theme="italia" id="placeButton">  Italia </a> <br>
+          <a class="butn" role="button" data-theme="ristorante" id="placeButton">  Le Tre Candele </a> <br>
+         </p>
+        </details>
+         <details class="details ml">
+         <summary><a class="butn themeButton" role="button" data-theme="people" id="peopleButton"> <i class="fa fa-user" aria-hidden="true"></i>    People</a></summary>
+         </p>
+         <a class="butn" role="button" data-theme="brigadiere" id="placeButton"> Brigadiere Antonio Langadara </a> <br>
+         <a class="butn" role="button" data-theme="capostazione" id="placeButton">  Capostazione</a><br>
+         <a class="butn" role="button" data-theme="roccella" id="placeButton">  Giorgio Roccella </a> <br>
+         <a class="butn" role="button" data-theme="professore" id="placeButton">  Professor Carmello Franzò </a> <br>
+         <a class="butn" role="button" data-theme="uomovolvo" id="placeButton"> Uomo della Volvo </a> <br>
+         <a class="butn" role="button" data-theme="prete" id="placeButton"> Padre Cricco </a> <br>
+         <a class="butn" role="button" data-theme="questore" id="placeButton">  Questore </a> <br>
+         <a class="butn" role="button" data-theme="procuratore" id="placeButton">  Procuratore </a> <br>
+         <a class="butn" role="button" data-theme="figlio" id="placeButton"> Figlio di Roccella </a> <br>
+         <a class="butn" role="button" data-theme="moglie" id="placeButton">  La signora Roccella </a> <br>
+        </p>
+         </details>
+    </div>        
       </div>                   
   </div>
 </div>
@@ -958,22 +1249,6 @@ La battuta era feroce. Il magistrato impallidì. E passò a un duro interrogator
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  <script>
-    $('#collapsible').click(function(){
-      $('#contentcoll').toggle("slow", function() {
-      });
-    });
-  
-  </script>
-  
-
-  <script>
-    $('#collapsible1').click(function(){
-      $('#contentcoll1').toggle("slow", function() {
-      });
-    });
-  
-  </script>
   
 
   <script>
