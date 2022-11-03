@@ -1330,7 +1330,6 @@ h6 {
 .titlecontent {
   color:white;
   font-weight: bold;
-  font-size: 25px;
   text-transform:uppercase;
   padding-bottom: 45px;
   padding-top:35px;
@@ -1342,6 +1341,9 @@ h6 {
       .ml {
         margin-left: 80px;
        }
+.details{
+  color:black;
+}
 .but {
   font-size: 25px;
   font-weight: bold;
@@ -1374,30 +1376,85 @@ color: white;
 .butn{
   color: rgb(111, 0, 0);
 }
- .item1{
-  text-align: center;
-  padding-top: 10px;
-  font-size: 24px;
-  }
-
-  .item2{
-    text-align: center;
-    padding-top:10px;
-    font-size: 16px;
-    border-width: 22px;
-  border-color:white;
-  }
 
 
   .highlight[property~="people"]{
-    background-color: rgba(111, 0, 0 0.5);
+    background-color: red;;
     border-radius: 6px;
   }
-  
+  .highlight[property~="brigadiere"]{
+    background-color: yellow;
+    border-radius: 6px;
+  }
+  .highlight[property~="roccella"]{
+    background-color: violet;
+    border-radius: 6px;
+  }
+  .highlight[property~="commissario"]{
+    background-color: white;
+    border-radius: 6px;
+  }
+  .highlight[property~="questore"]{
+    background-color:blue;
+    border-radius: 6px;
+  }
+  .highlight[property~="figlio"]{
+    background-color:magenta;
+    border-radius: 6px;
+  }
+  .highlight[property~="moglie"]{
+    background-color: mediumseagreen;
+    border-radius: 6px;
+  }
+  .highlight[property~="uomovolvo"]{
+    background-color: mediumvioletred;
+    border-radius: 6px;
+  }
+  .highlight[property~="professore"]{
+    background-color: olive;
+    border-radius: 6px;
+  }
+  .highlight[property~="capostazione"]{
+    background-color:chocolate;
+    border-radius: 6px;
+  }
+  .highlight[property~="prete"]{
+    background-color:teal;
+    border-radius: 6px;
+  }
   .highlight[property~="places"]{
     background-color: rgba(250, 0, 0, 0.5);
     border-radius: 6px;
   }
+  .highlight[property~="monterosso"]{
+    background-color: red;;
+    border-radius: 6px;
+  }
+  .highlight[property~="stazione"]{
+    background-color: red;;
+    border-radius: 6px;
+  }
+  .highlight[property~="villino"]{
+    background-color: red;;
+    border-radius: 6px;
+  }
+  .highlight[property~="caserma"]{
+    background-color: red;;
+    border-radius: 6px;
+  }
+  .highlight[property~="contrada"]{
+    background-color: red;;
+    border-radius: 6px;
+  }
+  .highlight[property~="italia"]{
+    background-color: red;;
+    border-radius: 6px;
+  }
+  .highlight[property~="ristorante"]{
+    background-color: red;;
+    border-radius: 6px;
+  }
+  
 
 
 
@@ -1406,6 +1463,7 @@ color: white;
     height: 500px;
     margin: 0 auto;
     overflow-y: scroll;
+   scrollbar-color:black;
   }
 
 
