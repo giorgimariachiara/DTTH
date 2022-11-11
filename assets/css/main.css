@@ -976,6 +976,7 @@ h6 {
   padding: 0;
 }
 
+
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
@@ -989,11 +990,7 @@ h6 {
 }
 
 
-.giornali{
-  width: 100%;
-  height: 85%;
-  
-}
+
 
 
 .services .service-item:before {
@@ -1454,6 +1451,10 @@ color: white;
     background-color: red;;
     border-radius: 6px;
   }
+  .highlight[property~="evidence"]{
+    background-color: rgba(250, 0, 0, 0.5);
+    border-radius: 6px;
+  }
   
 
 
@@ -1521,7 +1522,35 @@ color: white;
 }
 
 .fotog{
+ text-align: center;
  margin-top: 150px;
- margin-left: 50px;
+  
+}
+
+.giornali{
+  width: 100%;
+  height: 85%;
+  
+}
+
+
+.giornalip{
+  width: 40%;
+  height: auto;
+  
+}
+
+.giornalim{
+  width: 50%;
+  height: auto;
+
+}
+.articoli{
+  margin: 50px 150px 50px;
+
+}
+
+.bi-zoom-in{
+  color: #fff;
   
 }
