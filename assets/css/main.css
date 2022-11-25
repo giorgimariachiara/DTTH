@@ -1005,14 +1005,9 @@ h6 {
 .services .service-item i {
   background: var(--color-primary);
   color: #fff;
-  font-size: 24px;
-  transition: 0.3s;
-  display: flex;
+  font-size: 14px; 
   align-items: center;
   justify-content: center;
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
 }
 
 .services .service-item h4 {
@@ -1020,6 +1015,7 @@ h6 {
   margin: 15px 0 0 0;
   transition: 0.3s;
   font-size: 20px;
+  text-align:center;
 }
 
 .services .service-item h4 a {
