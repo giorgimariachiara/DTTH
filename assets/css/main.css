@@ -1533,8 +1533,9 @@ color: white;
 }
 
 .giornalim{
-  width: 50%;
-  height: auto;
+  margin-left: 100px;;
+  width: auto;
+  height: 500px;
 
 }
 .articoli{
@@ -1544,5 +1545,24 @@ color: white;
 
 .bi-zoom-in{
   color: #fff;
-  
 }
+
+.articolopage {
+height: 500px;
+overflow: scroll;
+}
+
+.abstract{
+margin-top: 100px;
+margin-left: 60px;
+margin-right: 60px;
+text-align: center;
+overflow: hidden;
+}
+
+h7{
+font-family:var(--font-primary);
+color: var(--color-primary);
+font-size: 30px;
+}
+
