@@ -1520,20 +1520,19 @@ color: white;
 .fotog{
  text-align: center;
  margin-top: 150px;
-  
+ padding: 50px;
+ border-width: 10px;
+ border-style:solid;
+ border-color: var(--color-primary);
 }
 
 .giornali{
   width: 100%;
-  height: 85%;
-  
+  height: 85%; 
 }
-
-
 .giornalip{
   width: 40%;
   height: auto;
-  
 }
 
 .giornalim{
@@ -1554,6 +1553,7 @@ color: white;
 .articolopage {
 height: 500px;
 overflow: scroll;
+
 }
 
 .abstract{
@@ -1570,3 +1570,7 @@ color: var(--color-primary);
 font-size: 30px;
 }
 
+.border1 {
+border-color: white;
+
+}
