@@ -1520,6 +1520,8 @@ color: white;
 .fotog{
  text-align: center;
  margin-top: 150px;
+ margin-left: 50px;
+ margin-right: 50px;
  padding: 50px;
  border-width: 10px;
  border-style:solid;
