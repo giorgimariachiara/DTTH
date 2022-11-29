@@ -163,7 +163,7 @@ h6 {
 }
 
 .scroll-top:hover {
-  background: rgba(39, 167, 118, 0.8);
+  background: var(--color-primary);
   color: #fff;
 }
 
