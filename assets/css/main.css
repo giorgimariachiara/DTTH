@@ -1461,10 +1461,11 @@ color: white;
     height: 500px;
     margin: 0 auto;
     overflow-y: scroll;
-   scrollbar-color:black;
   }
 
-
+  .scrolltext::-webkit-scrollbar {
+    display: none;
+  }
 
   .sezioni {
     width: 100%;
@@ -1559,12 +1560,22 @@ overflow: scroll;
 
 }
 
+.articolopage::-webkit-scrollbar {
+  display: none;
+}
+
+
 .abstract{
 margin-top: 100px;
 margin-left: 60px;
 margin-right: 60px;
 text-align: center;
 overflow: auto;
+}
+
+
+.articolopage::-webkit-scrollbar {
+  display: none;
 }
 
 h7{
