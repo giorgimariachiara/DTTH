@@ -1448,6 +1448,14 @@ color: white;
     background-color: red;;
     border-radius: 6px;
   }
+  .highlight[property~="roma"]{
+    background-color: red;;
+    border-radius: 6px;
+  }
+  .highlight[property~="stoccarda"]{
+    background-color: red;;
+    border-radius: 6px;
+  }
   .highlight[property~="evidence"]{
     background-color: rgba(250, 0, 0, 0.5);
     border-radius: 6px;
