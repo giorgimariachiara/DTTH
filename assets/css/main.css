@@ -1397,7 +1397,7 @@ color: white;
     border-radius: 6px;
   }
   .highlight[property~="moglie"]{
-    background-color: mediumseagreen;
+    background-color: rgb(143, 206, 255);
     border-radius: 6px;
   }
   .highlight[property~="uomovolvo"]{
@@ -1405,11 +1405,11 @@ color: white;
     border-radius: 6px;
   }
   .highlight[property~="professore"]{
-    background-color: olive;
+    background-color:chocolate;
     border-radius: 6px;
   }
   .highlight[property~="capostazione"]{
-    background-color:chocolate;
+    background-color:rgb(214, 47, 47);
     border-radius: 6px;
   }
   .highlight[property~="prete"]{
