@@ -13,6 +13,7 @@
   <link href="assets/img/favicon.png" rel="icon"  type="image/x-icon">
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
   <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+  
         <!-- Favicons -->
 
   <!-- Google Fonts -->
@@ -120,6 +121,11 @@
                      e ormai pochi, di un lavoro che non sarebbe mancato. Gli uffici erano, più delle altre
                     sere a quell'ora, quasi deserti: anche se illuminati, l'illuminazione serale e notturna degli uffici di polizia tacitamente prescritta <span property="evidence">per dare 
                     impressione ai cittadini che in quegli uffici sempre sulla loro sicurezza si vegliava.</span>
+                    <span class="popupright" class="ciao" onclick="popupfunction1()"><sup>1</sup>
+                      <span class="popuptext" id="myPopup1">
+                      the poet expresses his feeling of boredom and loss of ispiration. 
+                      </span>
+                    </span> 
                      Il telefonista annotò l'ora e il nome della persona che telefonava: <span property="people"><span property="roccella">Giorgio Roccella</span></span>. 
                      Aveva una voce educata, calma, suadente. 'Come tutti i folli' pensò il telefonista. Chiedeva infatti, <span property="people"><span property="roccella">il 
                       signor Roccella</span></span>, del <span property="people"><span property="questore">questore</span></span>: una follia, specialmente
@@ -1792,7 +1798,32 @@ La battuta era feroce. Il magistrato impallidì. E passò a un duro interrogator
   
     });
  </script>
+ <script>
+  // When the user clicks on <div>, open the popup
+  function popupfunction1() {
+    
+    var popup = document.getElementById("myPopup1");
+    popup.classList.toggle("show");
+  };
+  
+  function popupfunction2() {
+    
+    var popup = document.getElementById("myPopup2");
+    popup.classList.toggle("show");
+  };
  
+  function popupfunction3() {
+    
+    var popup = document.getElementById("myPopup3");
+    popup.classList.toggle("show");
+  };
+  
+  function popupfunction4() {
+    
+    var popup = document.getElementById("myPopup4");
+    popup.classList.toggle("show");
+  };
+  </script>
 
 </body>
 
