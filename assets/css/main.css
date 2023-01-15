@@ -1339,9 +1339,20 @@ h6 {
 
   }
 
-      .ml {
+      .mlp {
         margin-left: 80px;
+        background-color: white;
+        color: #000;
+        padding: 50px;
+        border-width: 10px;
+        border-style: solid;
+        border-color:  rgb(139, 2, 2);
+
        }
+       
+
+
+
 .details{
   color:black;
 }
@@ -1550,18 +1561,25 @@ color: white;
   height: 85%; 
 }
 .giornalip{
-  width: 40%;
+  width: 400px;
   height: auto;
+  margin-left: 40px;
 }
 
 .giornalim{
-  margin-left: 100px;;
+  margin-top: 5px;
   width: auto;
   height: 500px;
 
 }
 .articoli{
   margin: 50px 150px 50px;
+
+}
+
+.articolimatt{
+  margin-top: 20px;
+  margin-bottom: 20px;
 
 }
 
@@ -1577,6 +1595,17 @@ overflow: scroll;
 
 .articolopage::-webkit-scrollbar {
   display: none;
+}
+
+
+.articolomatt{
+  height: 500px;
+overflow: scroll;
+}
+
+
+.articolomatt::-webkit-scrollbar {
+  display:none;
 }
 
 
