@@ -5,25 +5,25 @@
   "logo": {
     "file": "",
     "link": "",
-    "text": ""
+    "text": "Eliza Stuglik Maria Chiara Giorgi "
   },
   "text": {
     "more": "",
-    "intro": "Second Mafia War ",
-    "title": "Second Mafia War Factions"
+    "intro": "Browse though the graph to analyze the different relationship between all the characters of the book and understand by which side are they on in the Mafia war. ",
+    "title": "Una Storia Semplice"
   },
   "legend": {
     "edgeLabel": "connections",
-    "colorLabel": "The two factions",
+    "colorLabel": "Shows the city of provenience of each person",
     "nodeLabel": "people"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "Interval",
+    "groupSelectorAttribute": "Side",
     "hoverBehavior": "default"
   },
   "informationPanel": {
-    "groupByEdgeDirection": true,
+    "groupByEdgeDirection": false,
     "imageAttribute": "Label"
   },
   "sigma": {
