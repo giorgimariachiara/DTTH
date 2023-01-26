@@ -52,19 +52,29 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="documentation.html" class="active">Documentation</a></li>
-          <li><a href="analysis.html"> Analysis</a></li>
-          <li><a href="events.html" class="active">Second Mafia War</a></li>
+          <li class="dropdown"><a href="events.html"><span>Second Mafia War</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="netevents.html">Network Analysis</a></li>
+            </ul>
           <li><a href="sde.html">SDE</a></li>
         </ul>
       </nav><!-- .navbar -->
 
-       
+      
+      
+
+
+
+
+
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
     </div>
   </header><!-- End Header -->
 
+
+  
 
     <!-- ======= End Page Header ======= -->
     <div class="page-header d-flex align-items-center">
@@ -77,14 +87,18 @@
       </div>
     </div><!-- End Page Header -->
 
+
+
+
+
+    
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
-      <div class="container">
-
+      <div class="container docu">
         <div class="row gy-4 justify-content-center">
-          <div class="col-lg-7">
-            <h2>The project</h2>
-            <p>The project <i>"Sicilia '80"</i> was born with the aim of showing the political,
+          <div class="col-lg-10">
+           <div class="docut text-center"><h2>The project</h2></div>
+            <p class= "docup">The project <i>"Sicilia '80"</i> was born with the aim of showing the political,
             social and cultural situation in Sicily during the 80s.
             We decided to set as a starting point the book of <a href="https://en.wikipedia.org/wiki/Leonardo_Sciascia">Leonardo Sciascia</a>: <i>"<a href="https://en.wikipedia.org/wiki/Una_storia_semplice_(novel)">Una storia semplice</a>"</i>.
             Leonardo Sciascia was in fact the first italian 
@@ -116,8 +130,9 @@
               to the XML file of the book as additional material to support and make more understandable the topic for the user.
                On the other hand, the other three events
                are presented to the user in the form of video, that is the news report.
-
-            <h2>People, places and evidences</h2>
+            </p>
+               <div class="docut text-center"><h2>People, places and evidences</h2></div>
+               <p class= "docup">
             The favorite narrative form of Leonardo Sciascia was the detective story, in which the investigation is entrusted 
             to a character who embodies the values ​​of justice and rationality.
             This is the case of <i>"Una Storia Semplice"</i> in which this figure is represented by Antonio Lagandara, 
@@ -147,8 +162,8 @@
             
             </p>
 
-            <h2>Data modeling process and methodologies</h2>
-            <p>
+             <div class="docut text-center"><h2>Data modeling process and methodologies</h2></div>
+             <p class= "docup"> 
               As Michael Sperberg-McQueen stated in his keynote to the 2012 workshop on Knowledge Organization
               and Data Modeling: <i>“Modeling is a way to make explicit our assumptions about
               the nature of a text/artefact”</i>. 
@@ -171,9 +186,10 @@
               The structure of text is governed by pattern that permits more variation, allowing alternatives, omissions, repetitions, and recursions. 
               Texts are sequences in the sense defined above, and a grammar-based instrument like the extensible Markup Language (XML) is the most 
               effective approach to modeling this form of open-ended structure. 
-
-                <h3>The Digital Humanities' Paradox</h3>
-              A book called Data and Reality (Kent, 1978), first published in 1978, comes
+            </p>
+              <div class="docut text-center"><h2>The Digital Humanities' Paradox</h2></div>
+              <p class= "docup"> 
+              A book called <a href="https://www.ibs.it/data-reality-timeless-perspective-on-libro-inglese-william-kent/e/9781935504214">Data and Reality (Kent, 1978)</a>, first published in 1978, comes
               from that heroic age of database design and development.
               Kent’s quietly subversive message was that this was a struggle predominantly over terminology.
               He noted that almost all of these passionately advocated models were fundamentally
@@ -193,11 +209,14 @@
               The act of choosing is a defining characteristic of modeling, for this reason it 
               seems evident that subjectivity is
               an unavoidable component of the humanities.
+              </p>
 
-                <h2>Our process</h2>
-                <p>The following paragraph will explain the process of data modeling we adopted, based on the model of Elena Pierazzo.  
-                
-              1. The first step is the analytical activity, the core of modeling. It consists in the analysis of the choosen domain, that in our case is the criminal organization <i>Mafia</i>.
+              <div class="docut text-center"> <h2>Our process</h2></div>
+              <p class= "docup"> 
+                The following paragraph will explain the process of data modeling we adopted, based on the model of Elena Pierazzo.  
+                <br>
+             <ul> 
+              <li>The first step is the analytical activity, the core of modeling. It consists in the analysis of the choosen domain, that in our case is the criminal organization <i>Mafia</i>.
                Through this analysis is possible to select the features connected to the topic. The main part of our corpora is composed by the novel <a href="https://it.wikipedia.org/wiki/Una_storia_semplice_(romanzo)">Una Storia Semplice" by Leonardo Sciascia</a>. 
                We have created a digital edition of the book published by <a href="https://www.adelphi.it">Adelphi</a>. The metamodel used in order to markup the text is XML and the schema most suitable for this kind of material was, in our opinion, TEI.
                 Whith the usage of this specific data model it was possible to make the reading comprehension of the novel.
@@ -219,24 +238,30 @@
                    subject-review articles; non-research articles; letters; editorials; book, software, and product reviews;
                     peer reviews, and author responses included with an article. The Tag Set allows for descriptions of the
                      full article content or just the article header metadata.
+              </li>
                      <br>
-                  2. The criterion of sampling evoked by Unsworth is directed by a particular <b>point
+                     <li>
+                  The criterion of sampling evoked by Unsworth is directed by a particular <b>point
                   of view</b> or by a <b>purpose</b> of research. Besides the main goal that is the explanation of the socio-cultural situation in Sicily in the '80s,
                    the selection made in this project was guided three main purposes:
+                   <br>
                     a. Show the brutality of Mafia that acts mercilessly;
+                    <br>
                     b. Make explicit the corruption present in the italian society;
+                    <br>
                     c. Create a storytelling of the Second Mafia War, showing the factions of the different sicilian bosses. 
-                  <br>
-
-                    3. A model can also be defined by its <b>function</b>. 
+                     </li>
+                     <br>
+                     <li>
+                    A model can also be defined by its <b>function</b>. 
                     Following the distinction made by McCarty in his 
                     seminal work, we can define our model as
                      "<b>model-of</b>", a model that aims to get to 
                      know the domain better. In the McCarty definition of model:<i> "A ‘model’ I take to be either a representation of something for purposes
                       of study [model-of], or a design for realizing something new [model-for]”
                       "</i>
-
-
+                    </li>
+                    </ul>
             </p>
             
               </div>
