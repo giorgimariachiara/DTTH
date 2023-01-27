@@ -6,11 +6,8 @@
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-    xmlns:wikidata="https://www.wikidata.org/wiki/"
     xmlns:geonames="https://www.geonames.org/"
-    xmlns:viaf="http://viaf.org/viaf/"
-    xmlns:foaf="http://xmlns.com/foaf/0.1/"
-    xmlns:dbo="http://dbpedia.org/ontology/">
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
     <teiHeader>
         <fileDesc>         
            <titleStmt>
@@ -116,83 +113,84 @@
               <listPerson>
                   <person xml:id="brigadiere">
                       <persName>Brigadiere Antonio Langadara</persName>
-                      <note>È il protagonista. Di origini contadine, si è diplomato, ma, non sapendo cosa fare,
-                          si è arruolato in Polizia, e cinque anni dopo ne diventa sottoufficiale.
-                          Si iscrive alla facoltà di legge, ma la frequenta quando può. Il suo sogno è quello
-                          di laurearsi e far carriera come poliziotto: per questo è così diligente nel suo lavoro.
-                          Nel racconto è l’unico a tenere fede alle proprie idee mettendosi addirittura contro graduati
-                          più alti: resta fermo sulla sua ipotesi a proposito dell’omicidio. È anche molto sensibile:
-                          nell’occasione della scoperta dell’assassino da parte sua e del professore,
-                          si dispera piangendo. 
+                      <note>He is the main character. Of peasant origin, he graduated from high school, but, not knowing what to do,
+                          he joined the police, and five years later becomes a non-commissioned officer.
+                          He enrolls in law school, but attends it when he can. His dream is to
+                          to graduate and make a career as a police officer: that is why he is so diligent in his work.
+                          In the story, he is the only one who sticks to his guns by even putting himself up against graduates
+                          higher-ups: he stands firm on his assumption about the murder. He is also very sensitive:
+                          On the occasion of his and the professor's discovery of the murderer,
+                          he weeps in despair. 
                       </note>
                   </person>
                   <person xml:id="capostazione">
                       <persName>Capostazione di Monterosso</persName>
                       <note>
-                          Figura che rappresenta la crisi della società italiana che corrisponde anche con la crisi della giustizia. 
+                          Figure representing the crisis of Italian society that also corresponds with the crisis of justice. 
                       </note>
                   </person>
                   <person xml:id="roccella">
                       <persName>Giorgio Roccella</persName>
-                      <note> È l’assassinato. Nato il 14 gennaio 1923 a Monterosso, diplomatico in pensione,
-                          torna a Monterosso dopo 15 anni di assenza per un suo sfizio, ma viene ucciso il 18 marzo 1989.
-                          Ha qualche proprietà in città e in collina, un figlio ventenne, a lui molto affezionato, e una
-                          moglie, da cui è divorziato da dodici anni.</note>
+                      <note>He is the murdered. He was born on the 14th of january 1923 in Monterosso. 
+                          He returned to Monterosso after a 15-year absence on a whim, but was murdered on March 18, 1989.
+                          He has a few properties in town and in the hills, a 20-year-old son, who is very fond of him, and a
+                          wife, from whom he has been divorced for 12 years.
+                      </note>
                   </person>
                   <person xml:id="professore">
                       <persName>Professor Carmelo Franzò</persName>
                       <note>
-                       Aiuta il brigadiere nelle sue indagini e, in un momento di crisi di quest’ultimo,
-                       lo aiuta ad uscirne. In città è conosciuto da tutti, dal momento che era un’insegnante 
-                       di lettere, e ha seguito generazioni di alunni
-                       in cui ha lasciato un bellissimo ricordo. Egli rappresenta l'intellettuale che ha il dovere di non tacere
-                       e di denunciare l'arroganza del potere e la crisi della società italiana.
+                          He helps the brigadier in his investigations and, in a moment of the latter's crisis,
+                          helps him out of it. He is known to everyone in town, since he was a teacher 
+                          of letters, and has followed generations of pupils
+                          in whom he has left a beautiful memory. He represents the intellectual who has a duty not to be silent
+                          and to denounce the arrogance of power and the crisis of Italian society.
                       </note>
                   </person>
                   <person xml:id="uomoVolvo">
                       <persName>Uomo della Volvo</persName>
                       <note>
-                      È l’uomo chiave del racconto. Non riconoscendo capostazione e manovale, conferma l’ipotesi del brigadiere. Per la cronaca, è un farmacista.
+                       He is the key man in the story. Not recognizing stationmaster and laborer, he confirms the brigadier's hypothesis. For the record, he is a pharmacist.
                       </note>
                   </person>
                   <person xml:id="prete">
                       <persName>Padre Cricco</persName>
                       <note>
-                      Descritto come un “bell’uomo, alto, solenne nella veste talare” e amico della vittima,
-                     informa Roccella delle condizioni della casa di città. Alla fine si scopre che faceva parte della banda del commissario.
+                          Described as a "handsome man, tall, solemn in his cassock" and a friend of the victim,
+                          informs Roccella of the condition of the town house. It is eventually revealed that he was part of the commissioner's gang. 
                       </note>
                   </person>
                   <person xml:id="commissario">
                       <persName>Commissario</persName>
                       <note>
-                          È l’assassino ed è, nell’ambito del romanzo, il meno sospettabile.
-                          Fa parte della banda criminale del manovale e del capostazione,
-                          e alla notizia del ritorno di Roccella, lo uccide.
+                          He is the murderer and, in the context of the novel, he is the least suspicious.
+                          He is part of the criminal gang of the laborer and the stationmaster,
+                          and upon hearing of Roccella's return, kills him.
                       </note>
                   </person>
                   <person xml:id="questore">
                       <persName>Questore</persName>
                       <note>
-                         Figura che rappresenta la crisi della società italiana che corrisponde anche con la crisi della giustizia. 
+                          Figure representing the crisis of Italian society that also corresponds with the crisis of justice. 
                       </note>
                   </person>
                   <person xml:id="procuratore">
                       <persName>Procuratore della repubblica</persName>
                       <note>
-                          Figura che rappresenta la crisi della società italiana che corrisponde anche con la crisi della giustizia.  
+                          Figure representing the crisis of Italian society that also corresponds with the crisis of justice. 
                       </note>
                   </person>
                   <person xml:id="figlio">
                       <persName>Figlio di Roccella</persName>
                       <note>
-                         Figlio della vittima, arriva in Sicilia da Edimburgo. A differenza della madre è veramente interessato 
-                         a scoprire la verità sulla morte di suo padre. 
+                          Son of the victim, he arrives in Sicily from Edinburgh. Unlike his mother, he is genuinely interested 
+                          in finding out the truth about his father's death. 
                       </note>
                   </person>
                   <person xml:id="moglie">
                       <persName>La signora Roccella</persName>
                       <note>
-                       Moglie della vittima, arriva in Sicilia da Stoccarda. Il figlio invece vive a Edimburgo.
+                          Wife of the victim. She arrives in Sicily from Stuttgart. The son, on the other hand, lives in Edinburgh.
                       </note>
                   </person>
                   <person xml:id="Pirandello">
@@ -251,10 +249,14 @@
                     «è un diplomatico, console o ambasciatore non so dove. Non viene qui da anni, chiusa la casa di città, abbandonata e quasi in rovina <placeName ref="#villinoRoccella">quella di campagna</placeName>, in <placeName ref="#contradaCotugno">contrada Cotugno</placeName>
                     appunto... <placeName ref="#villinoRoccella">Quella</placeName> che si vede dalla strada: in alto, che sembra un fortino...». «Una vecchia masseria,» disse il 
                     <persName ref="#brigadiere"> brigadiere </persName>  «ci sono passato sotto tante volte». «Dentro il recinto, per cui pare una masseria, c'è un <placeName ref="villinoRoccella">villino</placeName> molto grazioso; o almeno c'era... Grande famiglia, quella dei Roccella: ma ora ridotta a questo <persName ref="#roccella">console o ambasciatore </persName> che sia... Non credevo nemmeno che fosse ancora vivo, da tanto che non si vede». Se vuole,» disse il <persName ref="#brigadiere"> brigadiere </persName> «vado a controllare». «Ma no, sono sicuro che si tratta di uno scherzo... Domani, magari, se hai tempo
-           e voglia, vai a dare un'occhiata... Per quanto mi riguarda, qualunque cosa accada, domani non mi cercate: vado a festeggiare il San Giuseppe da un mio amico, in campagna». </p>  
-                <linkGrp type="evidences">
-                      <link target="#E1 #E2"/>
-                </linkGrp>
+           e voglia, vai a dare un'occhiata... Per quanto mi riguarda, qualunque cosa accada, domani non mi cercate: vado a festeggiare il San Giuseppe da un mio amico, in campagna». </p>
+                <note n="1" target="#E1"> This is the first deviation from the norm: a Police station should be a 
+                    reassuring place; in order to give this impression the lights of the building are on, even if this latter was almost empty. 
+                </note>
+                <note n="2" target="#E2">
+                    The author with irony wants to show how "obvious" is that, since it is late, the Police officer is not present anymore in the police station.  
+                </note>
+             
             </div>
             <div xml:id="parte2">
                 <p> L'indomani, in pattuglia, il <persName ref="#brigadiere"> brigadiere </persName> andò in <placeName ref="contradaCotugno">contrada Cotugno</placeName>: nello stato d'animo, <persName ref="#brigadiere">lui</persName> e i due agenti che lo accompagnavano, di fare una gita: per quel che aveva detto il <persName ref="commissario">commissario</persName>, erano sicuri che quel luogo fosse disabitato
@@ -275,8 +277,8 @@
                  Ma avevano bussato alla porta. 'La polizia' pensò; ed era invece l'assassino. Forse si presentò come poliziotto: e l'<persName ref="#roccella">uomo </persName> lo fece entrare, tornò a sedere alla scrivania, cominciò a raccontare di quel che aveva trovato. La pistola stava forse sulla scrivania, nella paura che gli 
                  cresceva probabilmente era andato a tirarla fuori da un qualche ripostiglio che ricordava (il <persName ref="#brigadiere"> brigadiere </persName> non credeva che gli assassini si dotassero di un così vecchio arnese). Vedendola sul tavolo, forse chiese, l'assassino, informazione sull'arma, ne verificò il funzionamento,
                  improvvisamente la puntò alla testa dell'altro e sparò. E poi la gran trovata di mettere il punto dopo «ho trovato»: «ho trovato che la vita non vale la pena di essere vissuta», «ho trovato l'unica ed estrema verità», «ho trovato», «ho trovato»: il tutto e il niente. Non reggeva.
-                 Ma da parte dell'assassino, quel punto non era poi un errore: per la tesi del suicidio, che si sarebbe certamente affacciata (il <persName ref="#brigadiere"> brigadiere </persName> ne era sicuro), da quel punto sarebbero stati estratti significati esistenziali e filosofici, e specialmente se la personalità dell'ucciso avesse
-                    offerto un qualche addentellato. Sulla scrivania c'erano un mazzo di chiavi, un vecchio calamaio di peltro, la fotografia, di una comitiva numerosa ed allegra, che almeno cinquant'anni prima era stata scattata in giardino: forse proprio lì fuori, <rs xml:id="E6">quando intorno alla casa ci dovevano essere
+                 Ma da parte dell'assassino, quel punto non era poi un errore: <rs xml:id="E6">  per la tesi del suicidio, che si sarebbe certamente affacciata </rs> (il <persName ref="#brigadiere"> brigadiere </persName> ne era sicuro), da quel punto sarebbero stati estratti significati esistenziali e filosofici, e specialmente se la personalità dell'ucciso avesse
+                    offerto un qualche addentellato. Sulla scrivania c'erano un mazzo di chiavi, un vecchio calamaio di peltro, la fotografia, di una comitiva numerosa ed allegra, che almeno cinquant'anni prima era stata scattata in giardino: forse proprio lì fuori, <rs xml:id="E7">quando intorno alla casa ci dovevano essere
                  alberi d'armonia e d'ombra, ora soltanto seccume e sterpaglia.</rs> Accanto al foglio con l'«ho trovato», la stilografica chiusa: finezza dell'assassino (il <persName ref="#brigadiere"> brigadiere </persName> era sempre più certo che si trattava di un omicidio), a dar l'impressione che con quel punto l'<persName ref="#roccella">uomo </persName> aveva appunto messo un
                  punto fermo alla propria esistenza. La stanza, intorno, aveva scaffali quasi tutti vuoti di libreria. I libri che restavano erano annate rilegate di riviste giuridiche, manuali di agronomia, fascicoli di una rivista che s'intitolava «Natura ed arte». C'erano poi, uno sull'altro,
                  alcuni volumi che dovevano essere antichi, sul cui dorso il <persName ref="#brigadiere"> brigadiere </persName> lesse Calepinus. Lui aveva sempre creduto che il calepino fosse un libretto da tenere in tasca, un taccuino, un prontuario: gli sembrò curioso che quel nome a dei libriccini venisse da quei libri che ognuno
@@ -289,15 +291,39 @@
                  ad accendere fiammiferi. Ne accese molti prima di arrivare, in cima, a una specie di sottotetto, una camera alta che uno di normale statura quasi toccava con la testa il soffitto ma ampia quanto giù la sala da pranzo. Era piena di divani, poltrone e sedie sfondate; di casse; di cornici vuote; di panneggi polverosi.
                  Torno torno erano dei busti-reliquiari di santi: una diecina, dorati; ma faceva spicco tra loro un busto più grande, d'argento il petto, nera la mantellina, la faccia incagnata. I busti dorati portavano, sul piedistallo barocco, il nome di ciascun santo; l'altro più grande e più cupo il <persName ref="#brigadiere"> brigadiere </persName> non
                  aveva sufficiente esperienza di santi per riconoscervi sant'Ignazio. Il <persName ref="#brigadiere"> brigadiere </persName> accese l'ultimo fiammifero e velocemente ridiscese. «Un tetto morto pieno di santi» spiegò all'agente che lo aspettava al piede della scala. Si sentiva come se polvere, ragnatele e muffe gli fossero piovute addosso.
-                    <rs xml:id="E7">Tornò a scavalcare la finestra per ritrovare la mattinata fredda e splendida, il sole, l'erba gocciolante di brina.</rs> L'agente sempre a due passi dietro di lui, girarono intorno alla casa. Tra sterpi e seccumi, c'era uno spiazzo che, evidentemente, era servito per manovre di automobili, forse di autocarri.
+                    <rs xml:id="E8">Tornò a scavalcare la finestra per ritrovare la mattinata fredda e splendida, il sole, l'erba gocciolante di brina.</rs> L'agente sempre a due passi dietro di lui, girarono intorno alla casa. Tra sterpi e seccumi, c'era uno spiazzo che, evidentemente, era servito per manovre di automobili, forse di autocarri.
                  «C'è stato traffico, qui» disse il <persName ref="#brigadiere"> brigadiere </persName>. Poi, indicandoli all'agente, domandò: «Che te ne pare di questi catenacci?»: quelli che chiudevano le porte dei magazzini o stalle che circondavano la casa come un fortilizio da western americano. «Sono nuovi» disse l'agente. «Bravo» disse il <persName ref="#brigadiere"> brigadiere </persName>.</p>
-                <linkGrp type="evidences">
-                    <link target="#E3 #E4 #E5 E6 E7"/>
-                </linkGrp>
+                <note n="3" target="#E3">
+                    Nature, descripted in the Montalian manner, is
+                    rendered even more barren by the neglect of men; even though it
+                    hints at an ancient beauty.  
+                </note>
+                <note n="4" target="#E4">
+                    Nature, descripted in the Montalian manner, is
+                    rendered even more barren by the neglect of men; even though it
+                    hints at an ancient beauty.  
+                </note>
+                <note n="5" target="#E5">
+                    Through the figure of the brigadiere the author wants to show his bitterness towards one of the deepest italian, and maybe universal evils: 
+                    the sad truth for which culture is no guarantee of professional competence.  
+                </note>
+                <note n="6" target="#E6">
+                    The Brigadiere, who has little faith in the honesty of his colleagues,
+                    fears that the suicide hypothesis will soon be brought up.
+                    This is because it is certainlty the easiest way to close the case, requiring less work and less fuss. 
+                </note>
+                <note n="7" target="#E7">
+                    Nature, descripted in the Montalian manner, is
+                    rendered even more barren by the neglect of men; even though it
+                    hints at an ancient beauty. 
+                </note>
+                <note n="8" target="#E8">
+                    The scenes take place almost all in asphyxiating and oppressive indoors. This darkens even more the negative atmosphere. 
+                </note>
             </div>
             <div xml:id="parte3">
                <p>
-                   Poco meno di due ore dopo, arrivarono tutti quelli che dovevano arrivare: <persName ref="#questore">questore</persName>, <persName ref="#procuratore">procuratore della Repubblica</persName>, medico, fotografo, <rs xml:id="E8"> un giornalista prediletto dal
+                   Poco meno di due ore dopo, arrivarono tutti quelli che dovevano arrivare: <persName ref="#questore">questore</persName>, <persName ref="#procuratore">procuratore della Repubblica</persName>, medico, fotografo, <rs xml:id="E9"> un giornalista prediletto dal
                        <persName ref="#questore">questore</persName></rs> e un nugolo di agenti tra i quali per sussiego spiccavano quelli della scientifica.Sei o sette automobili che anche dopo che erano arrivate continuarono a
                    rombare, stridere e urlare, così come dal centro della città erano partite suscitando
                    la curiosità dei cittadini e anche quella - effetto dal <persName ref="#questore">questore</persName> desiderato tardivo al
@@ -312,7 +338,7 @@
                    «Quello che hai da dire, lo dirai poi nel tuo rapporto... Intanto...»: ma non sapeva
                    intanto cosa ci fosse da dire o da fare se non ripetere: «Suicidio, caso evidente di suicidio».
                    Il <persName ref="#brigadiere"> brigadiere </persName> tentò ancora: «Signor <persName ref="#questore">questore</persName>...». Voleva dirgli della telefonata della
-                   sera prima, di quel punto dopo l'«ho trovato». Ma il <persName ref="#questore">questore</persName> tagliò: «Vogliamo il rapporto», indicò sé e il <persName ref="#procuratore">procuratore della Repubblica</persName>, guardò l'orologio, «nel primo pomeriggio». E rivolto al <persName ref="#procuratore">procuratore</persName> e al colonnello: <rs xml:id="E9">«Questo è un caso semplice, bisogna
+                   sera prima, di quel punto dopo l'«ho trovato». Ma il <persName ref="#questore">questore</persName> tagliò: «Vogliamo il rapporto», indicò sé e il <persName ref="#procuratore">procuratore della Repubblica</persName>, guardò l'orologio, «nel primo pomeriggio». E rivolto al <persName ref="#procuratore">procuratore</persName> e al colonnello: <rs xml:id="E10">«Questo è un caso semplice, bisogna
                    non farlo montare e sbrigarcene al più presto... Vai a scrivere il rapporto, subito».
                    Automaticamente, il colonnello vide, invece, il caso molto complicato, e comunque
                    da non sbrigarsene al più presto. Scattava subito, pregiudizialmente, quali che fossero
@@ -331,7 +357,7 @@
                    nuovi, lucidi; e se ne tornò in ufficio come alleggerito, a scrivere in due ore e passa
                    quel che al suo pari grado aveva raccontato in cinque minuti. Così, tornando in città, il
                    colonnello dei carabinieri seppe dal suo <persName ref="#brigadiere"> brigadiere </persName> quel che ci voleva per rendere il
-                   caso più complicato di quanto il <persName ref="#questore">questore</persName> desiderasse. Nonostante fosse domenica e festa di San Giuseppe, dati anagrafici e catastali, informazioni più o meno confidenziali, affluirono subito alla questura e al comando carabinieri. <rs xml:id="E10">Le stesse o quasi, da fonti uguali e da uguali confidenti: il che, se avessero
+                   caso più complicato di quanto il <persName ref="#questore">questore</persName> desiderasse. Nonostante fosse domenica e festa di San Giuseppe, dati anagrafici e catastali, informazioni più o meno confidenziali, affluirono subito alla questura e al comando carabinieri. <rs xml:id="E11">Le stesse o quasi, da fonti uguali e da uguali confidenti: il che, se avessero
                    lavorato in concordanza, avrebbe risparmiato a una delle due parti quel tempo e quella
                    fatica che avrebbe potuto più utilmente impiegare: ma stiamo vagheggiando una cosa
                    impossibile quanto la collaborazione tra un costruttore e un dinamitardo (e ben s'intende che ruoli simili a nessuna delle due parti si attagliano).</rs> 
@@ -342,9 +368,9 @@
                    giorno, il 18; aveva pranzato al ristorante <placeName ref="letrecandele"> Le tre candele </placeName> ordinando spaghetti al nero
                    di seppia e polipo in insalata; aveva chiamato un taxi per farsi portare al <placeName ref="#villinoRoccella">villino</placeName>. Si era
                    assicurato, disse al taxista, che le chiavi che aveva funzionassero ad aprire la porta, dopo di che lo aveva licenziato, e che tornasse a riprenderlo l'indomani alle undici. «Soffro d'insonnia,» spiegò «lavorerò tutta la notte». Ma l'indomani alle undici, vedendo
-                   tutto quel movimento di polizia e carabinieri, <rs xml:id="E11">il taxista era tornato indietro senza salire
+                   tutto quel movimento di polizia e carabinieri, <rs xml:id="E12">il taxista era tornato indietro senza salire
                    al <placeName ref="#villinoRoccella">villino</placeName>. Forse, pensò, l'uomo era un pericoloso ricercato. E perché andarsi a cacciare
-                   in un guaio?
+                   in un guaio?</rs> <rs xml:id="E13">
                    Il <persName ref="#questore">questore</persName>, sufficientemente irritato dal rapporto, che adombrava l'omicidio, del
                    <persName ref="#brigadiere"> brigadiere </persName>, dall'informazione che la vittima si era separata dalla <persName ref="#moglie">moglie</persName> (o, preferiva, la
                    <persName ref="#moglie">moglie</persName> da lui), trasse motivo a rafforzare la sua ipotesi del suicidio. La domanda del
@@ -353,11 +379,30 @@
                    informativo, fece notare al <persName ref="#questore">questore</persName> che la separazione dalla <persName ref="#moglie">moglie</persName> 
                    era avvenuta dodici anni prima. Per quanto doloroso, un caso simile è difficile giunga al vertice della disperazione dodici anni dopo. 
                    Arrivò invece al vertice l'irritazione del <persName ref="#questore">questore</persName> nei riguardi del <persName ref="#brigadiere"> brigadiere </persName>. 
-                   <rs xml:id="E12">«Non si permetta di queste osservazioni,» disse «e faccia tornare subito il <persName ref="#commissario">commissario</persName>, dovunque si trovi»</rs>
-               </p>
-                <linkGrp type="evidences">
-                    <link target=" #E8 E9 E10 E11 E12"/>
-                </linkGrp>
+                   <rs xml:id="E14">«Non si permetta di queste osservazioni,» disse «e faccia tornare subito il <persName ref="#commissario">commissario</persName>, dovunque si trovi»</rs>
+               </p>            
+                <note n="9" target="#E9">
+                    These words are meant to convey the deep corruption that exists even among the police force. 
+                    It is clear, in fact, that this journalist is recommended by the quaestor. 
+                </note>
+                <note n="10" target="#E10">
+                    Behind the apparent simplicity of the story there are all the complicated criminal mechanisms. 
+                    In addition, there is the mismatch between the criminals' idea of "to simplify", that is to hide and manipulate and 
+                    the innocent one, that is to find the truth. 
+                </note>
+                <note n="11" target="#E11">
+                    This is a clear complaint against all those authorities that should collaborate but compete with each other. 
+                </note>
+                <note n="12" target="#E12">
+                    Even the ordinary citizen is disappointed and discouraged. For this reason he neglects its duty because 
+                    he does not feel neither protected nor encouraged.  
+                </note>
+                <note n="13" target="#E13">
+                    The continuous attempt to hide and deny the truth without even thinking about "complicated" theories. Moreover the questor is also trying to force and manipulate the evidences for his own benefit. 
+                </note>
+                <note n="14" target="#E14">
+                    The attempt to hide and deny the truth continuous,the quaestor even silences his colleague.
+                </note>
              </div>
             <div xml:id="parte4">
                <p>
@@ -367,7 +412,7 @@
                    cadrebbero fulminati».
                    Aveva appreso il fatto da radio e giornali, disse. Lesse senza far commento lo scheletrico rapporto 
                    del <persName ref="#brigadiere"> brigadiere </persName>, uscì a conferire col <persName ref="#questore">questore</persName>.
-                   <rs xml:id="E13"> Tornò che pareva ce l'avesse col <persName ref="#brigadiere"> brigadiere </persName>. «Non facciamo romanzi» lo avvertì.</rs>
+                   <rs xml:id="E15"> Tornò che pareva ce l'avesse col <persName ref="#brigadiere"> brigadiere </persName>. «Non facciamo romanzi» lo avvertì.</rs>
                    Ma il romanzo era già nell'aria. Due ore dopo, nell'ufficio sedeva ad alimentarlo il <persName ref="professore"> professor </persName> Carmelo Franzò, vecchio amico della vittima. Raccontò che sabato 18, inaspettatamente, si era visto arrivare 
                    in casa  <persName ref="#roccella">Giorgio Roccella</persName>. Spiegazione di quell'improvviso viaggio: si era ricordato che 
                    in una cassapanca che doveva ancora esserci
@@ -386,11 +431,11 @@
                    «Che quadro?» aveva domandato il <persName ref="#professore">professore</persName>. «Quello che è scomparso qualche anno fa:
                     non ti ricordi?» aveva detto <persName ref="#roccella">Roccella</persName>. Il <persName ref="#professore">professore</persName> non era certo di
                    avere indovinato di qual quadro si trattasse; gli consigliò, comunque, di chiamare la polizia.
-                   <rs xml:id="E14"> «Che storia complicata,» </rs>disse il <persName ref="#commissario">commissario</persName> tra incredulità e preoccupazione:
+                   <rs xml:id="E16"> «Che storia complicata,» </rs>disse il <persName ref="#commissario">commissario</persName> tra incredulità e preoccupazione:
                    «il quadro, il telefono; due cose che il signor <persName ref="#roccella">Roccella</persName>, al momento in cui parlò
                    con lei, aveva appena scoperto...». E ancora più incredulo, al <persName ref="#professore">professore</persName>: «Lei ci
                    ha creduto?».
-                   <rs xml:id="E15">«Gli ho creduto per tutta la vita: perché proprio l'altro ieri avrei cominciato a
+                   <rs xml:id="E17">«Gli ho creduto per tutta la vita: perché proprio l'altro ieri avrei cominciato a
                        non credergli?».</rs>
                    Il <persName ref="#brigadiere"> brigadiere </persName> aveva intanto preso l'elenco telefonico, lo sfogliò, cercò, lesse:
                    «<persName ref="#roccella">Roccella Giorgio </persName> di <placeName ref="#monterosso">Monterosso</placeName>, <placeName ref="#contradaCotugno">contrada Cotugno</placeName>, 342260... Nell'elenco c'è».
@@ -418,20 +463,33 @@
                    persona e per telefono».
                    Il <persName ref="#professore">professore</persName>, nervosamente, tanto nervosamente da sillabare, si diede a ripetere.
                    «Non sta omettendo qualcosa?» si vendicò il <persName ref="#commissario">commissario</persName>.
-                   <rs xml:id="E16">«Ho buona memoria e l'abitudine di non ometter nulla»</rs>.
+                   <rs xml:id="E18">«Ho buona memoria e l'abitudine di non ometter nulla»</rs>.
                    «Bene, bene,» disse il <persName ref="#commissario">commissario</persName> «ma tenga presente che tra poco dovrà ripetere tutto, 
                    parola per parola, al giudice».
                    Il <persName ref="#professore">professore</persName> sorrise tra compatimento e sdegno. Ma a metter fine alla schermaglia entrò 
                    il <persName ref="#questore">questore</persName>, che del <persName ref="#professore">professore</persName> era stato allievo.
                    «<persName ref="#professore">Professore</persName>, lei qui?».
                    «E con un interessante racconto» disse il <persName ref="#commissario">commissario</persName>.
-                   Ma il ritorno del <persName ref="#brigadiere"> brigadiere </persName> portò agitazione. <rs xml:id="E17">«La richiesta c'è, di tre anni fa; ma
+                   Ma il ritorno del <persName ref="#brigadiere"> brigadiere </persName> portò agitazione. <rs xml:id="E19e">«La richiesta c'è, di tre anni fa; ma
                    con firma falsificata... L'hanno già accertato i carabinieri».</rs>
                    «Maledizione!» urlò il <persName ref="#questore">questore</persName>: indirizzandosi ai carabinieri. 
                </p>
-                <linkGrp type="evidences">
-                    <link target="#E13 #E14 #E15 #E16 #E17"/>
-                </linkGrp>
+                <note n="15" target="#E15">
+                    The brigadiers' hypothesis is seen as a "novel", that is, an alteration of reality. This is another paradoxical overturning of the reference values. 
+                </note>
+                <note n="16" target="#E16">
+                    There is a constant alternation between "complication" and "simplicity".
+                </note>
+                <note n="17" target="#E17">
+                    Professor Franzò is the only not conspirational character that wants to say the truth for his friend. In fact, he does not 
+                    submit to the police intimidations. 
+                </note>
+                <note n="18" target="#E18">
+                    Professor Franzò is the only not conspirational character that wants to say the truth for h
+                </note>
+                <note n="19" target="#E19">
+                    The fact that the request for a phone in the house was made with a fake signature is a clear demonstration of some criminal action related to the villino. 
+                </note>
             </div>
             <div xml:id="parte5">
               <p>
@@ -476,7 +534,7 @@
                   Imparzialmente furono chiamati carabinieri e polizia: che subito, entrambi, si diedero alla ricerca dell' <persName ref="#uomoVolvo">uomo della Volvo</persName>.
                   Ricerca non difficile, considerando che di Volvo in tutta la provincia non ce ne erano
                   più di trenta: considerazione che fece anche l'<persName ref="#uomoVolvo">uomo della Volvo</persName>, quando dalla radio
-                  apprese che la polizia lo cercava e capì che non avrebbe tardato a trovarlo. <rs xml:id="E18">Andò
+                  apprese che la polizia lo cercava e capì che non avrebbe tardato a trovarlo. <rs xml:id="E20">Andò
                   dunque in questura di malavoglia e con apprensione </rs>: ma, come fu scritto nell'incipit
                   del verbale, spontaneamente.
                   Cognome e nome, luogo e data di nascita, residenza, professione; e se aveva mai avuto
@@ -503,14 +561,19 @@
                   Il <persName ref="#commissario">commissario</persName> lo fulminò di un'occhiata: «Ti ringrazio, ma ci sarei arrivato
                   senza il tuo aiuto».
                   «Ma per carità,» disse il <persName ref="#brigadiere"> brigadiere </persName> «non mi permetterei...». E con ingenuità,
-                  confuso, balbettante, aggiunse: <rs xml:id="E19">«Lei è laureato». </rs>
+                  confuso, balbettante, aggiunse: <rs xml:id="E21">«Lei è laureato». </rs>
                   La battuta, suonando ironica al <persName ref="#commissario">commissario</persName>, lo fece del tutto inferocire: ma
                   contro l'<persName ref="#uomoVolvo">uomo della Volvo</persName>. «Mi dispiace, ma debbo trattenerla qui: abbiamo da
                   fare tanti accertamenti».
               </p>
-                <linkGrp type="evidences">
-                    <link target="#E18 E19"/>
-                </linkGrp>
+                <note n="20" target="#E20">
+                    The fact that the man goes unwillingly to the police station demonstrates that for the society it is more safe 
+                    to mind their own business. 
+                </note>
+                <note n="21" target="#E21">
+                    With this ironic joke Sciascia wants to show his bitterness towards one of the deepest italians and maybe universals evils: 
+                    the sad truth for which culture is no guarantee of professional competence. 
+                </note>
             </div>
             <div xml:id="parte6">
               <p>
@@ -525,7 +588,7 @@
                   sogno: da candore dunque quella battuta che al <persName ref="#commissario">commissario</persName> parve maligna. Ne
                   era ancora risentito, quando il <persName ref="#brigadiere"> brigadiere </persName> tornò dall'avere accompagnato in camera di
                    sicurezza l'<persName ref="#uomoVolvo">uomo della Volvo</persName>, le cui urla di protesta risuonavano ora per tutta la questura.
-                   <rs xml:id="E20">«Sono laureato, eh?... Io non ho ancora capito se sei davvero uno
+                   <rs xml:id="E22">«Sono laureato, eh?... Io non ho ancora capito se sei davvero uno
                        sprovveduto o se fingi di esserlo... Laureato! In un paese dove ormai sono laureati gli uscieri, i camerieri e persino gli spazzini».</rs> 
                   «Mi scusi» - disse sinceramente ma scontrosamente il <persName ref="#brigadiere"> brigadiere </persName>.
                   «Lasciamo perdere... Io vado ora dal <persName ref="#questore">questore</persName>: tra un quarto d'ora accompagna
@@ -580,11 +643,21 @@
                   «Posso permettermi di farle una domanda?... Poi gliene farò altre, di altra natura... Nei componimenti d'italiano lei mi assegnava sempre un tre, perché copiavo.
                   Ma una volta mi ha dato un cinque: perché?».
                   «Perché aveva copiato da un autore più intelligente».
-                  <rs xml:id="E21">Il magistrato scoppiò a ridere. «L'italiano: ero piuttosto debole in italiano. Ma,
+                  <rs xml:id="E23">Il magistrato scoppiò a ridere. «L'italiano: ero piuttosto debole in italiano. Ma,
                   come vede, non è poi stato un gran guaio: sono qui, <persName ref="#procuratore">procuratore della Repubblica</persName> ...».
                   «L'italiano non è l'italiano: è il ragionare» disse il <persName ref="#professore">professore</persName>. «Con meno italiano, lei sarebbe forse ancora più in alto».
                       La battuta era feroce. Il magistrato impallidì. E passò a un duro interrogatorio.</rs>
               </p>
+                
+                <note n="22" target="#E22">
+                    With this ironic joke Sciascia wants to show his bitterness towards one of the deepest italians and maybe universals evils: 
+                    the sad truth for which culture is no guarantee of professional competence. 
+                </note>
+                <note n="23" target="#E23">
+                    With this words Sciascia wants to show his bitterness towards one of the deepest italians and maybe universals evils: 
+                    the sad truth for which culture is no guarantee of professional competence. 
+                    
+                </note>
             </div>
             <div xml:id="parte7">
                <p>
@@ -612,7 +685,7 @@
                    <persName ref="#figlio">ragazzo</persName> le voltò le spalle mettendosi a guardare lo scaffale dei libri come se davvero lo interessassero. Stava piangendo.
                    Il <persName ref="#questore">questore</persName> disse: «Questi sono affari vostri. Io voglio sapere, <persName ref="#moglie">da lei, signora, </persName> se ha qualche ragione o 
                    sospetto riguardo all'uccisione di suo <persName ref="#roccella">marito</persName>».
-                   La <persName ref="#moglie">signora</persName> scrollò le spalle. <rs xml:id="E22">«Era siciliano,» disse «e i siciliani, ormai da anni,
+                   La <persName ref="#moglie">signora</persName> scrollò le spalle. <rs xml:id="E24">«Era siciliano,» disse «e i siciliani, ormai da anni,
                        chi sa perché, si ammazzano tra loro».</rs>
                    «Giudizio indefettibile» disse ironicamente il <persName ref="#figlio">figlio</persName> tornando a sedere davanti
                    alla scrivania del <persName ref="#questore">questore</persName>.
@@ -635,6 +708,10 @@
                    «Ne ricorda il nome?».
                    «Cricco, mi pare... <persName ref="#prete">Padre Cricco</persName>. Ma non sono certo». 
                </p>
+                <note n="24" target="#E24">
+                    This demonstrates the presence of stereotypes, through which the author shows a distorted reality. This distortion is due to all the apparences that often are exploited by who prefers to not investigate.
+                    
+                </note>
             </div>
             <div xml:id="parte8">
                <p>
@@ -653,7 +730,7 @@
                    «Ma pare che la polizia scientifica...».
                    «Sì, ha trovato sulla pistola più di un'impronta del <persName ref="#roccella">morto</persName>; ma proprio nei punti dove avrebbe dovuto impugnarla per spararsi,
                     sono come cancellate, quasi fosse
-                   stata impugnata da una mano guantata... <rs xml:id="E23"> Ma io, con tutto il rispetto per la polizia
+                   stata impugnata da una mano guantata... <rs xml:id="E25"> Ma io, con tutto il rispetto per la polizia
                        scientifica, a questo responso mi affido poco».</rs>
                    Il <persName ref="#brigadiere"> brigadiere </persName>, che il vizio d'intervenire non lo perdeva, disse: «Anch'io mi ci affido poco e 
                    quasi niente. Ma è impossibile immaginare che un uomo, dopo aver
@@ -661,9 +738,11 @@
                     Roba da hellzapoppin».
                    «Ti diverti, eh... Continua a divertirti, continua» disse acre il <persName ref="#commissario">commissario</persName>.
                </p>
-                <linkGrp type="evidences">
-                    <link target=" #E20 #E21 #E22 #E23"/>
-                </linkGrp>
+                <note n="25" target="#E25">
+                    This words can be interpreted in two ways: on the one hand the idea that the scientific police can not be trusted since the job title is not guarantee of professional competence, 
+                    on the other the will of the priest (that we will discover to be part of the system of malfeasance) to mislead the evidences. 
+                    
+                </note>
             </div>
             <div xml:id="parte9">
                 <p>
@@ -676,7 +755,7 @@
                     Fecero il breve viaggio loro due soli, con grande contentezza da parte del <persName ref="#brigadiere"> brigadiere </persName> cui il parlare con
                     persone che avevano fama di intelligenza e cultura dava una specie di ebrezza.
                     Ma il <persName ref="#professore">professore</persName> parlò dei propri mali, lasciando memorabile al <persName ref="#brigadiere"> brigadiere </persName> (ma
-                    non condividibile nell'energia dei suoi trent'anni) <rs xml:id="E24">la frase che ad un certo punto
+                    non condividibile nell'energia dei suoi trent'anni) <rs xml:id="E26">la frase che ad un certo punto
                         della vita non è la speranza l'ultima a morire, ma il morire è l'ultima speranza.</rs>
                     Il <persName ref="#professore">professore</persName> conosceva il luogo, molte ore della sua infanzia e giovinezza vi
                     aveva passato col suo amico. Appena entrati nel recinto, indicando i magazzini,
@@ -688,7 +767,7 @@
                     odore di zucchero bruciato, di foglie di eucalipto macerate, di alcool: qualcosa di indefinibile, insomma. Disse al <persName ref="#commissario">commissario</persName>: «Lo sente, quest'odore?».
                     «Non sento nulla, sono raffreddatissimo».
                     «Si dovrebbe far venire qualche esperto, qualche chimico; e i cani della guardia di finanza».
-                    <rs xml:id="E25">«Il miglior cane sei tu»</rs> disse il <persName ref="#commissario">commissario</persName>. «Comunque, faremo venire esperti
+                    <rs xml:id="E27">«Il miglior cane sei tu»</rs> disse il <persName ref="#commissario">commissario</persName>. «Comunque, faremo venire esperti
                     e cani».
                     Davanti alla porta del <placeName ref="#villinoRoccella">villino</placeName>, gli altri aspettavano. Le chiavi le aveva il <persName ref="#commissario">commissario</persName>, le diede al <persName ref="#brigadiere"> brigadiere </persName> dicendo: «Apri e fai da guida: io è la prima volta
                     che ci vengo».
@@ -718,7 +797,7 @@
                     «Queste lettere di <persName ref="#Pirandello">Pirandello</persName> mi piacerebbe leggermele bene».
                     «Non credo sarà difficile ottenere che gliele affidino». Ma pensava ad altro:
                     cupo, inquieto, nervoso; si sentiva che aveva bisogno di confidarsi, di sfogarsi.
-                    <rs xml:id="E26">Ad un certo punto fermò la macchina e cominciò nervosamente a piangere.
+                    <rs xml:id="E28">Ad un certo punto fermò la macchina e cominciò nervosamente a piangere.
                     «Stiamo assieme da tre anni, nello stesso ufficio».
                     «Capisco» disse il <persName ref="#professore">professore</persName>. «L'interruttore?».
                     «L'interruttore... Aveva detto di non essere mai stato in quella <placeName ref="#villinoRoccella">casa</placeName>: l'ha sentito anche lei... Io avevo consumato un'intera scatola di fiammiferi, cercando quell'interruttore; gli altri erano poi venuti a cercarlo con lampadine tascabili... E <persName ref="#commissario">lui</persName>
@@ -732,13 +811,26 @@
                     «Perciò le chiedo di aiutarmi».
                     «Per quello che posso... Ma salga a casa mia: staremo più tranquilli».
                     Parlarono per ore, arrivando alla conclusione che, da parte di quei delinquenti, il dipinto era stato un diletto incauto, un'attività marginale, quasi un capriccio.
-                    <rs xml:id="E27">Ben altro si faceva in quel <placeName ref="#villinoRoccella">casa</placeName>: e perciò il povero <persName ref="#roccella">Roccella</persName>, arrivando di sorpresa, era stato assassinato.
+                    <rs xml:id="E29">Ben altro si faceva in quel <placeName ref="#villinoRoccella">casa</placeName>: e perciò il povero <persName ref="#roccella">Roccella</persName>, arrivando di sorpresa, era stato assassinato.
                     Sulla porta, al momento di salutarlo, il <persName ref="#professore">professore</persName> domandò: «Lei ha intenzione...?».
                     «Non lo so,» disse il <persName ref="#brigadiere"> brigadiere </persName> «non lo so»: smarrito, stravolto. </rs>
-                </p>
-                <linkGrp type="evidences">
-                    <link target="#E24 #E25 #E26 #E27"/>
-                </linkGrp>
+                </p>	
+                <note n="26" target="#E26">
+                    Pessimism and resignation seems to be the only way in this corrupted context.
+                    
+                </note>
+                <note n="27" target="#E27">
+                    This esclamation is a ironic way to highlith the will of the brigadiere to seek the truth, and for the commissario to hide it.
+                    
+                </note>
+                <note n="28" target="#E28">
+                    The desperate reaction of the brigadiere towards the truth that he is discovering, represents the feeling of betrayal and disillusionment.
+                    
+                </note>
+                <note n="29" target="#E29">
+                    The brigadiere again represents a common man twisted and lost not having the possibility to make the right choice in safety.
+                    
+                </note>
             </div>
             <div xml:id="parte10">
                <p>
@@ -764,7 +856,7 @@
                    bottiglietta di olio lubrificante, una pezzuola di lana, uno scovolino. Disse: «È da
                    anni che non do una ripulita a questa pistola». La tirò fuori dalla custodia che portava attaccata alla cintura, la posò sul tavolo. Poi l'aprì, ne fece cadere le cartucce sul tavolo.
                    Il <persName ref="#brigadiere"> brigadiere </persName> capì. Sul giornale che aveva davanti e che fingeva di leggere, le
-                   parole si agglomerarono, si fusero, <rs xml:id="E28">si sciolsero nel titolo che il <persName ref="#commissario">commissario</persName> credeva di poter leggere 
+                   parole si agglomerarono, si fusero, <rs xml:id="E30">si sciolsero nel titolo che il <persName ref="#commissario">commissario</persName> credeva di poter leggere 
                    nei giornali dell'indomani: Commissario di polizia uccide per
                    errore un suo subalterno.</rs>
                    Disse: «Io pulisco sempre la mia... Ma lei è un buon tiratore?».
@@ -788,6 +880,10 @@
                    «Era un buon tiratore,» disse il <persName ref="#brigadiere"> brigadiere </persName> guardando il foro del proiettile dietro la sua scrivania «ma io lo avevo avvertito»: quasi avesse vinto in una gara. Ma
                    subito dopo cominciò a piangere e a battere i denti. 
                </p>
+                <note n="30" target="#E30">
+                    The brigadiere is already imagining the fake title of the journal article about his death of the next day. 
+                    
+                </note>
             </div>
             <div xml:id="parte11">
                 <p>
@@ -834,11 +930,15 @@
                     «Non è possibile» dissero tutti e due. Poi il <persName ref="#questore">questore</persName> invitò il <persName ref="#brigadiere"> brigadiere </persName> ad
                     uscire: «Aspetta in anticamera, ti chiameremo tra cinque minuti».
                     Lo richiamarono più di un'ora dopo.
-                    <rs xml:id="E29">«Incidente» disse il magistrato.
+                    <rs xml:id="E31">«Incidente» disse il magistrato.
                     «Incidente» disse il <persName ref="#questore">questore</persName>.
                     «Incidente» disse il colonnello.
                     E perciò sui giornali: <persName ref="#brigadiere"> Brigadiere </persName> uccide incidentalmente, mentre pulisce la pistola, il <persName ref="#commissario">commissario</persName> capo della polizia giudiziaria.</rs>
                 </p>
+                <note n="31" target="#E31">
+                    The authorities, that have never found an harmony for a collaboration in the fight against crime, find each other united 
+                    to bury the truth.    
+                </note>
             </div>
             <div xml:id="parte12">
               <p>
@@ -852,17 +952,22 @@
                   Trovò al posteggio, con cedola di contravvenzione, la sua Volvo. Ma gli parve
                   una cosa da riderne, tanto era contento.
                   Uscì dalla<placeName ref="#monterosso"> città </placeName> cantando. Ma ad un certo punto fermò di colpo la macchina,
-                  tornò ad incupirsi, ad angosciarsi. <rs xml:id="E30">«Quel <persName ref="#prete">prete</persName>,» si disse «quel prete...
+                  tornò ad incupirsi, ad angosciarsi. <rs xml:id="E32">«Quel <persName ref="#prete">prete</persName>,» si disse «quel prete...
                    L'avrei riconosciuto subito, se non fosse stato vestito da prete: era il <persName ref="#capostazione">capostazione</persName>, quello
                   che avevo creduto fosse il <persName ref="#capostazione">capostazione</persName>».
                   Pensò di tornare indietro, alla questura. Ma un momento dopo: «E che, vado
                   di nuovo a cacciarmi in un guaio, e più grosso ancora?».
                   Riprese cantando la strada verso casa. </rs>
+                 
               </p>
-                <linkGrp type="evidences">
-                    <link target="#E28 #E29 #E30"/>
-                </linkGrp>
+                <note n="32" target="#E32">
+                    Even the ordinary citizen is disappointed and discouraged. For this reason he neglects its duty because 
+                    he does not feel neither protected nor encouraged.    
+                </note>
             </div>
+            <linkGrp type="evidences">
+                <link target="#E1 #E2 #E3 #E4 #E5 #E6 #E7 #E8 #E9 #E10 #E11 #E12 #E13 #E14 #E15 #E16 #E17 #E18 #E19 #E20 #E21 #E22 #E23 #E24 #E25 #E26 #E27 #E28 #E29 #E30 #E31 #E32"/>
+            </linkGrp>
        </body>
     </text>
     
