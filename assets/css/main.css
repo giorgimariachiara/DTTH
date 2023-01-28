@@ -393,7 +393,7 @@
   @media (min-width: 1280px) {
     .navbar {
       padding: 0;
-      margin-right: 550px;
+      margin-right: 800px;
     }
   
     .navbar ul {
@@ -438,6 +438,9 @@
       color: #fff;
     }
   
+    .navbar{
+      align-items: center;
+    }
     .navbar .dropdown ul {
       display: block;
       position: absolute;
@@ -631,6 +634,9 @@
     color: var(--color-primary);
   }
   
+  .about{
+    margin-top:200px;
+  }
   .about .content ul {
     list-style: none;
     padding: 0;
@@ -1235,7 +1241,9 @@
     background-size: cover;
     position: relative;
     padding: 140px 0 60px 0;
+    margin-top: 100px;
   }
+  
   
   .hero h2 {
     margin: 0 0 50px 0;
@@ -1547,7 +1555,7 @@
   
   .fotog{
    text-align: center;
-   margin-top: 150px;
+   margin-top: 200px;
    margin-left: 50px;
    margin-right: 50px;
    padding: 50px;
@@ -1768,7 +1776,7 @@
   
 
   .docu{
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgb(255, 255, 255);
     border-style: solid;
     border-width: 10px;
     border-color: rgb(111, 0, 0);
