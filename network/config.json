@@ -9,12 +9,12 @@
   },
   "text": {
     "more": "",
-    "intro": "Browse though the graph to analyze the different relationship between all the characters of the book and understand by which side are they on in the Mafia war. ",
+    "intro": "Browse through the graph to analyze the different relationship between all the characters of the book and understand by which side are they on in the Mafia war. ",
     "title": "Una Storia Semplice"
   },
   "legend": {
     "edgeLabel": "connections",
-    "colorLabel": "Shows the city of provenience of each person",
+    "colorLabel": "Shows by which side is each character in the Mafia war",
     "nodeLabel": "people"
   },
   "features": {
