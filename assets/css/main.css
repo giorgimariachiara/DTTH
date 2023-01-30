@@ -1801,6 +1801,8 @@ margin-bottom: 20px ;
 .docup  {
   font-size:  15px;
   font-style: var(--color-secondary);
+  margin-left: 100px;
+  margin-right: 100px;
   
 }
 
@@ -1818,5 +1820,54 @@ li a{
 margin-top: 70px;
 width: 800px;
 height: 800px;
+
+}
+
+ .eventsection{
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-width: 10px;
+  border-color: rgb(111, 0, 0);
+  font-style: normal;
+  color: black;
+  width: auto;
+  margin-top: 100px;
+}
+
+.eventt h2{
+  font-family: var(--font-primary);
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.eventp {
+  font-style: normal;
+  color: #000;
+  font-size: 15px;
+  font-style: var(--color-secondary);
+}
+
+a {
+  color: #b20000
+}
+.mt-n1{
+  margin-top: -4rem !important;
+  margin-bottom: -4rem !important
+}
+
+.bottoni {
+  background-color: white;
+}
+
+
+
+.butn .themebutton {
+background-color: white;
+border-style: solid;
+border-width: 5px;
+border-color: #b20000;
+margin-top: 10px;
+margin-bottom: 10px;
 
 }
