@@ -9,7 +9,7 @@
   },
   "text": {
     "more": "",
-    "intro": "Browse the graph to get to know who were the participants of the Second Mafia War and by which side they were: Badalamenti-Bontate-Inzerillo or Corleonesi. By looking at the colors of each member it is also possible to see from which city they are from .  ",
+    "intro": "Browse the graph to get to know who were the participants of the Second Mafia War and by which side they were: Badalamenti-Bontate-Inzerillo or Corleonesi. By looking at the colors of each member it is also possible to see from which city they are from.  ",
     "title": "The Mafia War"
   },
   "legend": {
@@ -19,7 +19,7 @@
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": false,
+    "groupSelectorAttribute": "Faction ",
     "hoverBehavior": "default"
   },
   "informationPanel": {
