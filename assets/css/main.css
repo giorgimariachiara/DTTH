@@ -1801,6 +1801,8 @@ margin-bottom: 20px ;
 .docup  {
   font-size:  15px;
   font-style: var(--color-secondary);
+  margin-left: 100px;
+  margin-right: 100px;
   
 }
 
