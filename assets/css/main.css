@@ -429,13 +429,14 @@
       font-size: 12px;
       line-height: 0;
       margin-left: 5px;
+
     }
   
     .navbar a:hover,
     .navbar .active,
     .navbar .active:focus,
     .navbar li:hover>a {
-      color: #fff;
+      color: #fff !important;
     }
   
     .navbar{
@@ -474,7 +475,7 @@
     .navbar .dropdown ul a:hover,
     .navbar .dropdown ul .active:hover,
     .navbar .dropdown ul li:hover>a {
-      color: #fff;
+      color: #fff !important;
     }
   
     .navbar .dropdown:hover>ul {
@@ -636,6 +637,9 @@
   
   .about{
     margin-top:200px;
+  }
+  .abouto{
+    margin-top:130px;
   }
   .about .content ul {
     list-style: none;
@@ -1831,12 +1835,7 @@ li a{
 
 }
 
-.vocabolario {
-margin-top: 70px;
-width: 800px;
-height: 800px;
 
-}
 
  .eventsection{
   background-color: rgb(255, 255, 255);
@@ -2124,4 +2123,3 @@ margin-top: 20px;
   }
 
 
-  
